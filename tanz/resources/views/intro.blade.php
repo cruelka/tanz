@@ -13,10 +13,10 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="http://acitdxb.com/tanzanians/img/apple-touch-icon-114x114-precomposed1.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="http://acitdxb.com/tanzanians/img/apple-touch-icon-144x144-precomposed1.png">
 
-    <link rel="stylesheet" href="./Tanzanians Abroad_files/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('font-awesome.min.css') }}">
 
     <!-- GOOGLE WEB FONT -->
-    <link href="./Tanzanians Abroad_files/css" rel="stylesheet">
+
 
     <!-- BASE CSS -->
 	<link href="{{ asset('layerslider.min.css') }}" rel="stylesheet">
@@ -146,7 +146,7 @@
          
          
          
-         <div style="font-size:52px; color:#fff;top:55%; line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:0px; letter-spacing:-1px; margin-bottom:30px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;"><img src="./Tanzanians Abroad_files/logo.png"></div>
+         <div style="font-size:52px; color:#fff;top:55%; line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:0px; letter-spacing:-1px; margin-bottom:30px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;"><img src="{{ asset('logo.png') }}"></div>
 
        
           
@@ -182,7 +182,7 @@
         
        
 		
-	<div class="ls-inner" style="background: none transparent;"><div class="ls-background-videos"></div><div class="ls-slide-backgrounds"><div class="ls-wrapper ls-bg-outer" style="z-index: 1; width: 1349px; height: 608px;"><div class="ls-wrapper ls-bg-wrap" style="background-color: transparent; display: block; opacity: 1; transform: matrix(1.2, 0, 0, 1.2, 0, 0);"><img src="./Tanzanians Abroad_files/slide_1.jpg" class="ls-bg" alt="Slide background" style="margin: 0px; z-index: auto; width: 1349px; height: 759px; padding: 0px; border-width: 0px; border-radius: 0px; x: 0px; y: -22.65px; transform: translateX(0px) translateY(-22.65px); filter: none;" data-slidein="1" data-slideout="1"></div></div></div><div class="ls-layers"></div></div><div class="ls-gui-element ls-bar-timer" style="width: calc(100% - 0px);"></div><div class="ls-gui-element ls-loading-container" style="display: none;"><div class="ls-loading-indicator"></div></div><div class="ls-gui-element ls-shadow" data-parallax="disabled"></div></div><!-- /layerslider -->    
+	<div class="ls-inner" style="background: none transparent;"><div class="ls-background-videos"></div><div class="ls-slide-backgrounds"><div class="ls-wrapper ls-bg-outer" style="z-index: 1; width: 1349px; height: 608px;"><div class="ls-wrapper ls-bg-wrap" style="background-color: transparent; display: block; opacity: 1; transform: matrix(1.2, 0, 0, 1.2, 0, 0);"><img src="{{ asset('slide_1.jpg') }}" class="ls-bg" alt="Slide background" style="margin: 0px; z-index: auto; width: 1349px; height: 759px; padding: 0px; border-width: 0px; border-radius: 0px; x: 0px; y: -22.65px; transform: translateX(0px) translateY(-22.65px); filter: none;" data-slidein="1" data-slideout="1"></div></div></div><div class="ls-layers"></div></div><div class="ls-gui-element ls-bar-timer" style="width: calc(100% - 0px);"></div><div class="ls-gui-element ls-loading-container" style="display: none;"><div class="ls-loading-indicator"></div></div><div class="ls-gui-element ls-shadow" data-parallax="disabled"></div></div><!-- /layerslider -->    
          
 		
 	
