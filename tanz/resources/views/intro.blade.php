@@ -19,16 +19,16 @@
     <link href="./Tanzanians Abroad_files/css" rel="stylesheet">
 
     <!-- BASE CSS -->
-	<link href="./Tanzanians Abroad_files/layerslider.min.css" rel="stylesheet">
-    <link href="./Tanzanians Abroad_files/animate.min.css" rel="stylesheet">
-    <link href="./Tanzanians Abroad_files/bootstrap.min.css" rel="stylesheet">
-    <link href="./Tanzanians Abroad_files/style.css" rel="stylesheet">
-    <link href="./Tanzanians Abroad_files/all_icons_min.css" rel="stylesheet">
-    <link href="./Tanzanians Abroad_files/magnific-popup.min.css" rel="stylesheet">
-    <link href="./Tanzanians Abroad_files/yellow.css" rel="stylesheet">
+	<link href="{{ asset('public/layerslider.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/all_icons_min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/magnific-popup.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/yellow.css') }}" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="./Tanzanians Abroad_files/custom.css" rel="stylesheet">
+    <link href="{{ asset('publiccustom.css') }}" rel="stylesheet">
 
 <style></style><style type="text/css">.backpack.dropzone {
   font-family: 'SF UI Display', 'Segoe UI';
