@@ -19,13 +19,13 @@
     <link href="./Tanzanians Abroad_files/css" rel="stylesheet">
 
     <!-- BASE CSS -->
-	<link href="{{ asset('public/layerslider.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/animate.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/all_icons_min.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/magnific-popup.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/yellow.css') }}" rel="stylesheet">
+	<link href="{{ asset('layerslider.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('style.css') }}" rel="stylesheet">
+    <link href="{{ asset('all_icons_min.css') }}" rel="stylesheet">
+    <link href="{{ asset('magnific-popup.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('yellow.css') }}" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
     <link href="{{ asset('publiccustom.css') }}" rel="stylesheet">
