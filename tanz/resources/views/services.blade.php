@@ -1,7 +1,7 @@
 @extends('layouts.tanz')
 
 @section('content')
-<div>
+<div style="padding: 30px;">
                         <div class="row">
                             <div class="col-lg-12" align="justify">
                              <!---   <h2>Tanzania<span style="color:#28b24c;"> Citizenship</span></h2>
