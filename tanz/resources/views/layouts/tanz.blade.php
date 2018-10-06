@@ -23,6 +23,9 @@
     <link href="{{ asset('yellow.css') }}" rel="stylesheet">
     <link href="{{ asset('Form_wizard.css') }}" rel="stylesheet">
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css" rel="stylesheet">
+    
+
     <!-- YOUR CUSTOM CSS -->
     <link href="{{ asset('custom.css') }}" rel="stylesheet">
     
@@ -475,6 +478,8 @@ document.getElementById('CustomValidator1').dispose = function() {
            return true;
        }
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
 
     <script>
 $(document).ready(function(){

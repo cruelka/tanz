@@ -4,24 +4,6 @@
 
 <div class="container">
 
-<select name="country" class="countries order-alpha" id="countryId">
-    <option value="">Select Country</option>
-</select>
-<select name="state" class="states order-alpha" id="stateId">
-    <option value="">Select State</option>
-</select>
-
-<select name="country2" class="countries2" id="countryId2">
-    <option value="">Select Country</option>
-</select>
-<select name="state2" class="states2" id="stateId2">
-    <option value="">Select State</option>
-</select>
-<select name="city2" class="cities2" id="cityId2">
-    <option value="">Select City</option>
-</select>
-
-
 
 <div class="row">
                             <div class="col-lg-12"> 
