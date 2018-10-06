@@ -49,7 +49,7 @@
       <div class="row"> 
         <div class="form-group col-md-12">
             <label>Date of Birth: DD/MM/YYYY<br>Tarehe ya kuzaliwa</label>
-          <input name="ctl00$ContentPlaceHolder1$txtdob" type="text" id="ContentPlaceHolder1_txtdob" class="tcal tcalInput" oninput="this.className = ''">
+          <input class="datepicker" name="ctl00$ContentPlaceHolder1$txtdob" type="text" id="ContentPlaceHolder1_txtdob" class="tcal tcalInput" oninput="this.className = ''">
               
         </div>
           <div class="col-md-12 form-group">

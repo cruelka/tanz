@@ -492,7 +492,9 @@ $(document).ready(function(){
 		options = options + option;
 	}
 	
-	$('.country-select').append(options);
+    $('.country-select').append(options);
+    
+    $('.datepicker').datepicker();
 });
 
 </script>
