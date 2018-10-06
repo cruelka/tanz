@@ -46,5 +46,5 @@ Route::get('/dashboard', function () {
 Route::get('/application', function () {
     return view('application');
 });
-
+Route::get('/test','HomeController@test');
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
