@@ -466,7 +466,7 @@
 	 
 </div>
                
-             <div class="tab1">
+             <div class="tab1"style="display: block !important">
                <h2 style="text-align:left; margin-bottom:30px;"><span style="color:#28b24c;"> Review &amp; Check Disclaimer</span></h2> 
                     <h4>Applicant Details<br>Maelezo Binafsi</h4>
                  
