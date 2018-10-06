@@ -142,7 +142,7 @@ return true;
     <div id="layerslider" class="fullsize" style="width:1200px;height:100vh; overflow:hidden;"> 
     <!-- First slide -->
         <div class="ls-slide" data-ls="duration: 8000; transition2d: 5;bgsize:cover;bgposition:10% 15%;kenburnszoom:in;">
-     			<img src="img/slides/slide_1.jpg" class="ls-bg" alt="Slide background"> 
+     			<img src="{{ asset('slide_1.jpg') }}" class="ls-bg" alt="Slide background"> 
         </div> 
          <header>
          <div style="position: fixed; z-index:10000000; width:100%; padding:50px; "> 
@@ -188,7 +188,7 @@ return true;
          
          
          
-         <div style="font-size:52px; color:#fff;top:55%; line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:0px; letter-spacing:-1px; margin-bottom:30px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;"><img src="img/logo.png"></div>
+         <div style="font-size:52px; color:#fff;top:55%; line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:0px; letter-spacing:-1px; margin-bottom:30px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;"><img src="{{ asset('logo.png') }}"></div>
 
        
           
