@@ -236,9 +236,8 @@ return true;
     <div id="additional_links" style=" position:absolute; bottom:20px; z-index:10000;">
         <ul>
             <li>© 2018 Tanznians Abroad</li>	
-            <li><a href="disclaimer.aspx" class="animated_link">Disclaimer</a></li>
-            <li><a href="term_and_conditions.aspx" class="animated_link">Term and conditions</a></li>
-            <li><a href="contact.aspx" class="animated_link">Contact Us</a></li>
+            <li><a href="/disclaimer" class="animated_link">Disclaimer</a></li>
+            <li><a href="/terms" class="animated_link">Term and conditions</a></li>
            
         </ul>
     </div><!-- /add links -->
