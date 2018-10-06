@@ -427,14 +427,14 @@
 </div>
           <div class="form-group col-md-12">
               <label>Date of Birth: DD/MM/YYYY<br>Tarehe ya kuzaliwa</label>
-            <input name="ctl00$ContentPlaceHolder1$txtgardiandob" type="text" id="ContentPlaceHolder1_txtgardiandob" class="tcal tcalInput" oninput="this.className = ''">             
+            <input class="datepicker2" name="ctl00$ContentPlaceHolder1$txtgardiandob" type="text" id="ContentPlaceHolder1_txtgardiandob" class="tcal tcalInput" oninput="this.className = ''">             
         </div>
            <div class="form-group col-md-12">
                <label>Passport Number<br>namba ya pasipoti</label>
             <input name="ctl00$ContentPlaceHolder1$txtgardianpassportno" type="text" id="ContentPlaceHolder1_txtgardianpassportno" oninput="this.className = ''">             
         </div> <div class="form-group col-md-12">
                  <label>Date of Issue: DD/MM/YYYY<br>Tarehe ya kutolewa</label>
-            <input name="ctl00$ContentPlaceHolder1$txtgardiandateofissue" type="text" id="ContentPlaceHolder1_txtgardiandateofissue" class="tcal tcalInput" oninput="this.className = ''">             
+            <input class="datepicker3" name="ctl00$ContentPlaceHolder1$txtgardiandateofissue" type="text" id="ContentPlaceHolder1_txtgardiandateofissue" class="tcal tcalInput" oninput="this.className = ''">             
         </div>
            
             <div id="ContentPlaceHolder1_UpdatePanel2" style="width:100%">

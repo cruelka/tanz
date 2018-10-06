@@ -495,6 +495,8 @@ $(document).ready(function(){
     $('.country-select').append(options);
     
     $('.datepicker').datepicker();
+    $('.datepicker2').datepicker();
+    $('.datepicker3').datepicker();
 });
 
 </script>
