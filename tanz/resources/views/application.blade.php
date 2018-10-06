@@ -3,6 +3,29 @@
 @section('content')
 
 <div class="container">
+
+<select name="country" class="countries" id="countryId">
+    <option value="">Select Country</option>
+</select>
+<select name="state" class="states" id="stateId">
+    <option value="">Select State</option>
+</select>
+<select name="city" class="cities" id="cityId">
+    <option value="">Select City</option>
+</select>
+
+<select name="country2" class="countries2" id="countryId2">
+    <option value="">Select Country</option>
+</select>
+<select name="state2" class="states2" id="stateId2">
+    <option value="">Select State</option>
+</select>
+<select name="city2" class="cities2" id="cityId2">
+    <option value="">Select City</option>
+</select>
+
+
+
 <div class="row">
                             <div class="col-lg-12"> 
                                          <div style=" margin:0 auto; background-color:#FFF; padding:20px;">  
@@ -1558,5 +1581,6 @@ Note: all documents need to be in English or Kiswahili and colored copies
        
     </div></div>
 </div>
+
 
 @endsection
