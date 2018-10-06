@@ -14,13 +14,13 @@
     <option value="">Select City</option>
 </select>
 
-<select name="country2" class="countries" id="countryId2">
+<select name="country2" class="countries2" id="countryId2">
     <option value="">Select Country</option>
 </select>
-<select name="state2" class="states" id="stateId2">
+<select name="state2" class="states2" id="stateId2">
     <option value="">Select State</option>
 </select>
-<select name="city2" class="cities" id="cityId2">
+<select name="city2" class="cities2" id="cityId2">
     <option value="">Select City</option>
 </select>
 
