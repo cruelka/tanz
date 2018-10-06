@@ -15,4 +15,3 @@
             <a href="/settings"><img src="{{ asset('change_password.png') }}"></a>
         </div>
     </div>
-@endsection
