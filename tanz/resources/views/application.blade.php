@@ -702,7 +702,8 @@ Note: all documents need to be in English or Kiswahili and colored copies
 	var options = '<option value="">Select Country</option>';
 
 	for (key in countrydata.result) {
-		var option = '<option value="'+countrydata.result.key+'" countryid="'+key+'">'+countrydata.result.key+'</option>';
+		var option = '<option value="'+countrydata.result[key]+'" countryid="'+key+'">'+countrydata.result[key]+'</option>';
+		options = options + option;
 	}
 	
 	$('.country-select').append(options);
