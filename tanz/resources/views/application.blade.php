@@ -118,18 +118,8 @@ function __doPostBack(eventTarget, eventArgument) {
 </script>
 
 
-<script src="/tanzanians/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZLpsGiQWJm4q4S0nrN41DBHCfZs1j4ui1QcvbegECjQ0cfyS3A2&amp;t=636681352740000000" type="text/javascript"></script>
+<script src="{{asset('form.js')}}"></script>
 
-
-<script src="/tanzanians/ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1FwVYIqXstB8OGZAAJh3jy-aTxVPcc5mdVTUTjNMhk5GSoDEE6hAnaXv9qzvmML7OQDQhA4tVvt43z99t7urDBb-reoT3p12roLYEr1Z98vCpScv5A2&amp;t=fffffffff7ac47c5" type="text/javascript"></script>
-<script src="/tanzanians/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQlcWgLdQvilljRjGMAGnqXfemJuVIkz8y77JbP5-s3FZSvSutYIGsxKoBWUlxpMTnwU_2DNzglyJH9q8U5xR_xdETrLj65P5XqgzzzF72j4mVoA5oaXaB6O1qhWZVu2PkxU5LZo1&amp;t=545ba255" type="text/javascript"></script>
-<script type="text/javascript">
-//<![CDATA[
-if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
-//]]>
-</script>
-
-<script src="/tanzanians/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tXpIudxiC650GIMQLpvgOozBtNrndei1lTDSUHA3vCZgKSDwegflsJL-DtW03fTT0q_Vw3q7ZZwiRO8s9OSUySzClH_OuWROstx8eBhW4LBEtLSR3Nni3j6B2XRQ3P99YPRhsDE-ILJuyWOthEgH3fk-NTao0&amp;t=545ba255" type="text/javascript"></script>
 <script type="text/javascript">
 //<![CDATA[
 function WebForm_OnSubmit() {
