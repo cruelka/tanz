@@ -6,22 +6,24 @@
     <meta name="description" content="QUOTE - Request a quote for every type of companies">
     <meta name="author" content="Ansonika">
     <title>Tanznians Abrod</title> 
-    <link rel="shortcut icon" href="img/favicon1.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed1.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed1.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed1.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed1.png"> 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet"> 
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
-    <link href="css/magnific-popup.min.css" rel="stylesheet">
-    <link href="css/skins/square/yellow.css" rel="stylesheet"> 
-    <link href="css/custom.css" rel="stylesheet">
 
-     
-     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('font-awesome.min.css') }}">
+
+    <!-- GOOGLE WEB FONT -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet"> 
+
+    <!-- BASE CSS -->
+    <link href="{{ asset('layerslider.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('style.css') }}" rel="stylesheet">
+    <link href="{{ asset('all_icons_min.css') }}" rel="stylesheet">
+    <link href="{{ asset('magnific-popup.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('yellow.css') }}" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="{{ asset('custom.css') }}" rel="stylesheet">
     
 <style type="text/css">.backpack.dropzone {
   font-family: 'SF UI Display', 'Segoe UI';
@@ -79,7 +81,9 @@
 @keyframes sxt-play-anim-saved {
   100% {
     background-position: -5000px; } }
-</style></head>
+</style>
+
+</head>
    
 <body>
     <form method="post" action="./about.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
