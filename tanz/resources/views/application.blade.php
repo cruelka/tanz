@@ -62,7 +62,7 @@
 </div>
           <div class="col-md-12 form-group"> 
               <label>Country of Birth<br>Nchi ya kuzaliwa</label>
-             <select name="ctl00$ContentPlaceHolder1$ddlcountry" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlcountry\',\'\')', 0)" id="ContentPlaceHolder1_ddlcountry" oninput="this.className = ''">
+             <select name="ctl00$ContentPlaceHolder1$ddlcountry" id="ContentPlaceHolder1_ddlcountry" oninput="this.className = ''">
 	<option selected="selected" value=""></option>
 	<option value="Afghanistan">Afghanistan</option>
 	<option value="Albania">Albania</option>
@@ -532,7 +532,7 @@
 	
               <div class="col-md-12 form-group">
                   <label>Do you have Tanzanian Passport?<br>Unayo pasipoti ya Tanzania?</label>
-             <select name="ctl00$ContentPlaceHolder1$ddldoyouhavepassport" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddldoyouhavepassport\',\'\')', 0)" id="ContentPlaceHolder1_ddldoyouhavepassport" oninput="this.className = ''">
+             <select name="ctl00$ContentPlaceHolder1$ddldoyouhavepassport" id="ContentPlaceHolder1_ddldoyouhavepassport" oninput="this.className = ''">
 		<option selected="selected" value=""></option>
 		<option value="Yes">Yes/Ndio</option>
 		<option value="No">No/Hapana</option>
@@ -557,7 +557,7 @@
 </div>
             <div class="col-md-4 form-group">
                <label>Country<br>Nchi</label>
-             <select name="ctl00$ContentPlaceHolder1$ddlpocountry" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlpocountry\',\'\')', 0)" id="ContentPlaceHolder1_ddlpocountry" oninput="this.className = ''">
+             <select name="ctl00$ContentPlaceHolder1$ddlpocountry" id="ContentPlaceHolder1_ddlpocountry" oninput="this.className = ''">
 	<option selected="selected" value=""></option>
 	<option value="Afghanistan">Afghanistan</option>
 	<option value="Albania">Albania</option>
@@ -1057,7 +1057,7 @@
 	
         <div class="form-group col-md-12">
             <label>Father/Mother<br>Baba/Mama</label>
-             <select name="ctl00$ContentPlaceHolder1$ddlrelation" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlrelation\',\'\')', 0)" id="ContentPlaceHolder1_ddlrelation" oninput="this.className = ''">
+             <select name="ctl00$ContentPlaceHolder1$ddlrelation" id="ContentPlaceHolder1_ddlrelation" oninput="this.className = ''">
 		<option selected="selected" value=""></option>
 		<option value="Father">Father/Baba</option>
 		<option value="Mother">Father/Mama</option>
@@ -1071,7 +1071,7 @@
 
                      <div class="col-md-12 form-group">
                          <label>Country of Birth<br>Nchi ya kuzaliwa</label>
-             <select name="ctl00$ContentPlaceHolder1$ddlcountryofbirth_g" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlcountryofbirth_g\',\'\')', 0)" id="ContentPlaceHolder1_ddlcountryofbirth_g" oninput="this.className = ''">
+             <select name="ctl00$ContentPlaceHolder1$ddlcountryofbirth_g"  id="ContentPlaceHolder1_ddlcountryofbirth_g" oninput="this.className = ''">
 		<option selected="selected" value=""></option>
 		<option value="Afghanistan">Afghanistan</option>
 		<option value="Albania">Albania</option>
@@ -1323,7 +1323,7 @@
 	
         <div class="form-group col-md-12">
             <label>Issuing Authority<br>Mamlaka iliyotoa</label>
-             <select name="ctl00$ContentPlaceHolder1$ddlissuingauthority" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlissuingauthority\',\'\')', 0)" id="ContentPlaceHolder1_ddlissuingauthority" oninput="this.className = ''">
+             <select name="ctl00$ContentPlaceHolder1$ddlissuingauthority" id="ContentPlaceHolder1_ddlissuingauthority" oninput="this.className = ''">
 		<option selected="selected" value=""></option>
 		<option value="Dar Es Salam">Dar Es Salam</option>
 		<option value="Zanzibar">Zanzibar</option>
