@@ -57,8 +57,7 @@ return array(
          * The temporary directory is required to download remote images and when
          * using the PFDLib back end.
          */
-        "temp_dir" => storage_path('logs/'),
-        "logOutputFile" => storage_path('logs/log.htm'),
+        "temp_dir" => sys_get_temp_dir(),
 
         /**
          * ==== IMPORTANT ====
@@ -200,6 +199,7 @@ return array(
          * @var bool
          */
         "enable_php" => false,
+
         /**
          * Enable inline Javascript
          *
@@ -239,5 +239,6 @@ return array(
          */
         "enable_html5_parser" => false,
     ),
+
 
 );
