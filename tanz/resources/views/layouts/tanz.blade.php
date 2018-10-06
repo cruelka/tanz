@@ -189,7 +189,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['t
 <li><a href="/intro">Dashboard</a></li>
 <li><a href="/about">About Us</a></li>
 <li><a href="/services">Services</a></li>
-<li id="welcome" style="top:0;right:0;">Welcome, <a class="" style="padding-left:0px;color: #22b700;font-weight:bold" href="my_dashboard.aspx">Yegor</a> <a class="" href="logout.aspx" style="color:red;">[Log Out]</a></li>
+<!--<li id="welcome" style="top:0;right:0;">Welcome, <a class="" style="padding-left:0px;color: #22b700;font-weight:bold" href="my_dashboard.aspx">Yegor</a> <a class="" href="logout.aspx" style="color:red;">[Log Out]</a></li>-->
 
 <li><a href="http://www.immigration.go.tz/index.php/en/download/forms" target="_blank">Citizenship form</a></li>
 <li><a href="">Status</a></li>
