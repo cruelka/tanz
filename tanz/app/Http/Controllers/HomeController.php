@@ -30,7 +30,8 @@ class HomeController extends Controller
 {   $data = array('name' => 'yegor', 'sex' => '1');
         $pdf = PDF::setOptions([
             'logOutputFile' =>  storage_path('logs/log.htm'),
-            'images' => true
+            'images' => true,
+            'isRemoteEnabled' => true
         ])->loadView('form', compact('data'));
         return $pdf->download('invoice.pdf');
     }
