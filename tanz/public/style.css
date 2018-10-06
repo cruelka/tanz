@@ -629,19 +629,19 @@ footer ul li:first-child {
 }
 
 .box_feat#icon_1 {
-    background: url(../img/icons/01.png) center 40px no-repeat #fff
+    background: url(../public/icons/01.png) center 40px no-repeat #fff
 }
 
 .box_feat#icon_2 {
-    background: url(../img/icons/01.png) center 40px no-repeat #fff
+    background: url(../public/icons/01.png) center 40px no-repeat #fff
 }
 
 .box_feat#icon_3 {
-    background: url(../img/icons/01.png) center 40px no-repeat #fff
+    background: url(../public/icons/01.png) center 40px no-repeat #fff
 }
 
 .box_feat#icon_4 {
-    background: url(../img/icons/01.png) center 40px no-repeat #fff
+    background: url(../public/icons/01.png) center 40px no-repeat #fff
 }
 
 .about_info {
@@ -705,11 +705,11 @@ footer ul li:first-child {
 }
 
 .subheader#about {
-    background: url(../img/banner-inner.jpg);background-position:top; background-size:100%;
+    background: url(../public/banner-inner.jpg);background-position:top; background-size:100%;
 }
 
 .subheader#quote {
-    background: url(../img/banner-inner.jpg); background-position:top; background-size:100%;
+    background: url(../public/banner-inner.jpg); background-position:top; background-size:100%;
 }
 
 .subheader#services {
