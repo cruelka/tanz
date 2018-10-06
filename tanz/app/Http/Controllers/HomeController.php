@@ -28,7 +28,7 @@ class HomeController extends Controller
     }
     public function test()
 {   $data = array('name' => 'yegor', 'sex' => '1');
-        $pdf = PDF::loadView('form', compact('data'));
+        $pdf = PDF::setOptions(['logOutputFile' =>  storage_path('logs/log.htm')])->loadView('form', compact('data'));
         return $pdf->download('invoice.pdf');
     }
 }
