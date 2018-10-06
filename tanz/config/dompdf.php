@@ -199,7 +199,6 @@ return array(
          * @var bool
          */
         "enable_php" => false,
-        "logOutputFile" => ini_get('upload_tmp_dir').'/log.htm',
         /**
          * Enable inline Javascript
          *

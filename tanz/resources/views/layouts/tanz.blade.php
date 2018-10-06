@@ -87,7 +87,7 @@
 </head>
    
 <body>
-    <form method="post" action="./about.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+    <form method="post" id="form1">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
