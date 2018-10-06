@@ -58,6 +58,7 @@ return array(
          * using the PFDLib back end.
          */
         "temp_dir" => storage_path('logs/'),
+        "logOutputFile" => storage_path('logs/log.htm'),
 
         /**
          * ==== IMPORTANT ====
