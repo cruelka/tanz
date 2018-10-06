@@ -86,7 +86,14 @@
 @keyframes sxt-play-anim-saved {
   100% {
     background-position: -5000px; } }
-</style><link rel="stylesheet" href="./Tanzanians Abroad_files/skin.css" type="text/css"><script type="text/javascript" charset="UTF-8" src="./Tanzanians Abroad_files/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./Tanzanians Abroad_files/util.js.download"></script><script type="text/javascript" charset="UTF-8" src="./Tanzanians Abroad_files/stats.js.download"></script></head>
+</style>
+
+<link rel="stylesheet" href="{{ asset('skin.css') }}" type="text/css">
+<script type="text/javascript" charset="UTF-8" src="{{ asset('common.js') }}"></script>
+<script type="text/javascript" charset="UTF-8" src="{{ asset('util.js') }}"></script>
+<script type="text/javascript" charset="UTF-8" src="{{ asset('stats.js') }}"></script>
+
+</head>
 
 <body><div class="ls-wp-container fitvidsignore ls-hidden fullsize ls-v6 ls-container ls-fullsize" data-layerslider-uid="LSge8y3p6n8"><div class="ls-slide" data-ls="duration: 8000; transition2d: 5;bgsize:cover;bgposition:10% 15%;kenburnszoom:in;" style="width: 1200px; height: 700px;">
      			 
@@ -220,20 +227,21 @@
     
     
     <!-- Jquery-->
-    <script data-cfasync="false" src="./Tanzanians Abroad_files/email-decode.min.js.download"></script><script src="./Tanzanians Abroad_files/jquery-3.2.1.min.js.download"></script>
+    <script data-cfasync="false" src="{{ asset('email-decode.min.js') }}"></script>
+    <script src="{{ asset('jquery-3.2.1.min.js') }}"></script>
     <!-- Layer slider -->
-	<script src="./Tanzanians Abroad_files/greensock.js.download"></script>
-	<script src="./Tanzanians Abroad_files/layerslider.transitions.js.download"></script>
-	<script src="./Tanzanians Abroad_files/layerslider.kreaturamedia.jquery.js.download"></script>
-    <script src="./Tanzanians Abroad_files/slider_func.js.download"></script>
+	<script src="{{ asset('greensock.js') }}"></script>
+	<script src="{{ asset('layerslider.transitions.js') }}"></script>
+	<script src="{{ asset('layerslider.kreaturamedia.jquery.js') }}"></script>
+    <script src="{{ asset('slider_func.js') }}"></script>
     <!-- Common script -->
-    <script src="./Tanzanians Abroad_files/common_scripts_min.js.download"></script>
+    <script src="{{ asset('common_scripts_min.js') }}"></script>
     <!-- Theme script -->
-    <script src="./Tanzanians Abroad_files/functions.js.download"></script>
+    <script src="{{ asset('functions.js') }}"></script>
     <!-- Google map -->
-    <script src="./Tanzanians Abroad_files/js"></script>
-    <script src="./Tanzanians Abroad_files/mapmarker.jquery.js.download"></script>
-    <script src="./Tanzanians Abroad_files/mapmarker_func.jquery.js.download"></script>
+    <script src="{{ asset('js.js') }}"></script>
+    <script src="{{ asset('mapmarker.jquery.js') }}"></script>
+    <script src="{{ asset('mapmarker_func.jquery.js') }}"></script>
 
     <script type="text/javascript">
     $(document).ready(function(){
