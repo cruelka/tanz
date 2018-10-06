@@ -146,12 +146,12 @@ return true;
         <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx"><span>Menu mobile</span></a>
         <nav class="main_nav">
             <ul class="nav nav-tabs"> 
-<li><a href="Default.aspx">Dashboard</a></li>
-<li><a href="about.aspx">About Us</a></li>
-<li><a href="services.aspx">Services</a></li>
+<li><a href="/intro">Dashboard</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/services">Services</a></li>
+
 <li><a href="http://www.immigration.go.tz/index.php/en/download/forms" target="_blank">Citizenship form</a></li>
-<li><a href="status.aspx">Status</a></li>
-<li><a href="Default.aspx">Faq</a></li>
+<li><a href="">Status</a></li>
 
 
 
@@ -235,10 +235,8 @@ return true;
     <div id="additional_links" style=" position:absolute; bottom:20px; z-index:10000;">
         <ul>
             <li>© 2018 Tanznians Abroad</li>	
-            <li><a href="disclaimer.aspx" class="animated_link">Disclaimer</a></li>
-            <li><a href="term_and_conditions.aspx" class="animated_link">Term and conditions</a></li>
-            <li><a href="contact.aspx" class="animated_link">Contact Us</a></li>
-           
+            <li><a href="/disclaimer" class="animated_link">Disclaimer</a></li>
+            <li><a href="/terms" class="animated_link">Term and conditions</a></li>
         </ul>
     </div><!-- /add links -->
     

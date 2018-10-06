@@ -30,3 +30,11 @@ Route::get('/about', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
+Route::get('/terms', function () {
+    return view('terms');
+});
+
+Route::get('/disclaimer', function () {
+    return view('terms');
+});
