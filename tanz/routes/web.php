@@ -26,6 +26,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', function () {
     return view('about');
 });
+<<<<<<< HEAD
 
 Route::get('/services', function () {
     return view('services');
@@ -38,3 +39,6 @@ Route::get('/terms', function () {
 Route::get('/disclaimer', function () {
     return view('terms');
 });
+=======
+Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
+>>>>>>> 7bdc4c74d4cc191ed4cedb7b8f576274e99cae44
