@@ -169,7 +169,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['t
 </div>
 
           </div>
-          <div class="modal-footer" style="background-color: #fff;">
+          <div class="modal-footer" style="background-color: #fff;">s
 
             <a href="Registration.aspx" class="btn btn-primary">Register</a>
           </div>
@@ -180,7 +180,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['t
 
      <div style="background-color:#FFF; position: fixed; z-index:10000000; width:100%; padding:50px; "> 
           <div id="logo_home">
-            <a href="Default.aspx" title="Quote"><img src="img/logo-sml.png"></a>
+            <a href="Default.aspx" title="Quote"><img src="{{ asset('logo-sml.png') }}"></a>
         </div>
         
         <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx"><span>Menu mobile</span></a>
