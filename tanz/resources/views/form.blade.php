@@ -93,43 +93,7 @@
         <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="SxqxX15amnq00UEECue8zagK4O/27fwUjQDYmC+XApuUMatTLm6mui1Kxx78j/3sALzWnz95W0RI41Q94fCsi3/LGhB7FHCX7oGuDT/OhQ+SK5kJ">
     </div>
 
-    <script type="text/javascript">
-        //<![CDATA[
-        var theForm = document.forms['form1'];
-        if (!theForm) {
-            theForm = document.form1;
-        }
-        function __doPostBack(eventTarget, eventArgument) {
-            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-                theForm.__EVENTTARGET.value = eventTarget;
-                theForm.__EVENTARGUMENT.value = eventArgument;
-                theForm.submit();
-            }
-        }
-        //]]>
-    </script>
 
-
-    <script src="/tanzanians/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZLpsGiQWJm4q4S0nrN41DBHCfZs1j4ui1QcvbegECjQ0cfyS3A2&amp;t=636681352740000000" type="text/javascript"></script>
-
-
-    <script src="/tanzanians/ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1FwVYIqXstB8OGZAAJh3jy-aTxVPcc5mdVTUTjNMhk5GSoDEE6hAnaXv9qzvmML7OQDQhA4tVvt43z99t7urDBb-reoT3p12roLYEr1Z98vCpScv5A2&amp;t=fffffffff7ac47c5" type="text/javascript"></script>
-    <script src="/tanzanians/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQlcWgLdQvilljRjGMAGnqXfemJuVIkz8y77JbP5-s3FZSvSutYIGsxKoBWUlxpMTnwU_2DNzglyJH9q8U5xR_xdETrLj65P5XqgzzzF72j4mVoA5oaXaB6O1qhWZVu2PkxU5LZo1&amp;t=545ba255" type="text/javascript"></script>
-    <script type="text/javascript">
-        //<![CDATA[
-        if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
-        //]]>
-    </script>
-
-    <script src="/tanzanians/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tXpIudxiC650GIMQLpvgOozBtNrndei1lTDSUHA3vCZgKSDwegflsJL-DtW03fTT0q_Vw3q7ZZwiRO8s9OSUySzClH_OuWROstx8eBhW4LBEtLSR3Nni3j6B2XRQ3P99YPRhsDE-ILJuyWOthEgH3fk-NTao0&amp;t=545ba255" type="text/javascript"></script>
-    <script type="text/javascript">
-        //<![CDATA[
-        function WebForm_OnSubmit() {
-            if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
-            return true;
-        }
-        //]]>
-    </script>
 
     <div class="aspNetHidden">
 
@@ -244,72 +208,12 @@
         </ul>
     </div><!-- /add links -->
 
-    <!-- Jquery-->
-    <script data-cfasync="false" src="{{ asset('email-decode.min.js') }}"></script>
-    <script src="{{ asset('jquery-3.2.1.min.js') }}"></script>
-    <!-- Layer slider -->
-    <script src="{{ asset('greensock.js') }}"></script>
-    <script src="{{ asset('layerslider.transitions.js') }}"></script>
-    <script src="{{ asset('layerslider.kreaturamedia.jquery.js') }}"></script>
-    <script src="{{ asset('slider_func.js') }}"></script>
-    <!-- Common script -->
-    <script src="{{ asset('common_scripts_min.js') }}"></script>
-    <!-- Theme script -->
-    <script src="{{ asset('functions.js') }}"></script>
-    <!-- Google map -->
-    <script src="{{ asset('js.js') }}"></script>
-    <script src="{{ asset('mapmarker.jquery.js') }}"></script>
-    <script src="{{ asset('mapmarker_func.jquery.js') }}"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-            //Handles menu drop down
-            $('.dropdown-menu').find('form').click(function (e) {
-                e.stopPropagation();
-            });
-        });
-    </script>
 
 
 
 
 
 
-
-
-
-
-
-    <script>
-        function submitBday () {
-            var Q4A = "Your birthday is: "
-            var Bday = document.getElementById('bday').value;
-            Q4A += Bday;
-
-            var theBday = document.getElementById('resultBday');
-            theBday.innerHTML = Q4A;
-        }
-
-
-
-
-    </script>
-
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".flip").click(function() {
-                $(".ta").slideToggle("slow");
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".flip1").click(function() {
-                $(".ta1").slideToggle("slow");
-            });
-        });
-    </script>
 
     <style type="text/css">
         div.panel,p.flip {
@@ -339,133 +243,5 @@
     </style>
 
 
-    <script type="text/javascript">
-        //<![CDATA[
-        var Page_Validators =  new Array(document.getElementById("CustomValidator2"), document.getElementById("CustomValidator4"), document.getElementById("CustomValidator1"));
-        //]]>
-    </script>
 
-    <script type="text/javascript">
-        //<![CDATA[
-        var CustomValidator2 = document.all ? document.all["CustomValidator2"] : document.getElementById("CustomValidator2");
-        CustomValidator2.controltovalidate = "txtemail";
-        CustomValidator2.focusOnError = "t";
-        CustomValidator2.display = "Dynamic";
-        CustomValidator2.validationGroup = "blslog1";
-        CustomValidator2.evaluationfunction = "CustomValidatorEvaluateIsValid";
-        CustomValidator2.clientvalidationfunction = "vali_login";
-        CustomValidator2.validateemptytext = "true";
-        var CustomValidator4 = document.all ? document.all["CustomValidator4"] : document.getElementById("CustomValidator4");
-        CustomValidator4.controltovalidate = "txtemail";
-        CustomValidator4.focusOnError = "t";
-        CustomValidator4.display = "Dynamic";
-        CustomValidator4.validationGroup = "blslog1";
-        CustomValidator4.evaluationfunction = "CustomValidatorEvaluateIsValid";
-        CustomValidator4.clientvalidationfunction = "vali_email";
-        CustomValidator4.validateemptytext = "true";
-        var CustomValidator1 = document.all ? document.all["CustomValidator1"] : document.getElementById("CustomValidator1");
-        CustomValidator1.controltovalidate = "txtpassword";
-        CustomValidator1.focusOnError = "t";
-        CustomValidator1.display = "Dynamic";
-        CustomValidator1.validationGroup = "blslog1";
-        CustomValidator1.evaluationfunction = "CustomValidatorEvaluateIsValid";
-        CustomValidator1.clientvalidationfunction = "vali_login";
-        CustomValidator1.validateemptytext = "true";
-        //]]>
-    </script>
-
-
-    <script type="text/javascript">
-        //<![CDATA[
-
-        var Page_ValidationActive = false;
-        if (typeof(ValidatorOnLoad) == "function") {
-            ValidatorOnLoad();
-        }
-
-        function ValidatorOnSubmit() {
-            if (Page_ValidationActive) {
-                return ValidatorCommonOnSubmit();
-            }
-            else {
-                return true;
-            }
-        }
-
-        document.getElementById('CustomValidator2').dispose = function() {
-            Array.remove(Page_Validators, document.getElementById('CustomValidator2'));
-        }
-
-        document.getElementById('CustomValidator4').dispose = function() {
-            Array.remove(Page_Validators, document.getElementById('CustomValidator4'));
-        }
-
-        document.getElementById('CustomValidator1').dispose = function() {
-            Array.remove(Page_Validators, document.getElementById('CustomValidator1'));
-        }
-        //]]>
-    </script>
-</form>
-<script type="text/javascript">
-
-    function vali_login(source, args) {
-
-        if (document.getElementById(source.controltovalidate).value.length > 0) {
-            args.IsValid = true;
-            document.getElementById(source.controltovalidate).className = "form-control";
-        }
-        else {
-
-            args.IsValid = false;
-            document.getElementById(source.controltovalidate).className = "form-control ErrorControl";
-
-        }
-
-    }
-    function vali_email(source, args) {
-
-        if (document.getElementById(source.controltovalidate).value != "") {
-            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.getElementById(source.controltovalidate).value)) {
-                args.IsValid = true;
-                document.getElementById(source.controltovalidate).className = "form-control";
-            }
-            else {
-                args.IsValid = false;
-                document.getElementById(source.controltovalidate).className = "form-control ErrorControl";
-            }
-        }
-    }
-    function confirm_login(source, args) {
-        if (document.getElementById(source.controltovalidate).value == document.getElementById("ContentPlaceHolder1_txtnewpassword").value) {
-            args.IsValid = true;
-            document.getElementById(source.controltovalidate).className = "form-control";
-        }
-        else {
-            args.IsValid = false;
-            document.getElementById(source.controltovalidate).className = "form-control ErrorControl";
-        }
-
-    }
-    function vali_pass(source, args) {
-
-
-        if (document.getElementById(source.controltovalidate).value == document.getElementById("ContentPlaceHolder1_txtpassword").value) {
-            args.IsValid = true;
-            document.getElementById(source.controltovalidate).className = "form-control";
-        }
-        else {
-            args.IsValid = false;
-            document.getElementById(source.controltovalidate).className = "form-control ErrorControl";
-        }
-
-    }
-</script>
-<script type="text/javascript" language="javascript">
-    function isNumberKey(evt) {
-        var charCode = (evt.which) ? evt.which : event.keyCode
-        if (charCode > 31 && (charCode < 48 || charCode > 57))
-            return false;
-        return true;
-    }
-</script>
 </body></html>
