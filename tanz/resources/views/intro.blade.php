@@ -208,7 +208,7 @@ return true;
   </div>
   
   
-  <a href="Registration.aspx" class="animated infinite pulse" style=" background:transparent; border:0; padding:10px;px 30px; margin:5px; border:0; color:#fff;">Register</a>
+  <a href="/register" class="animated infinite pulse" style=" background:transparent; border:0; padding:10px;px 30px; margin:5px; border:0; color:#fff;">Register</a>
   
   
   
