@@ -27,7 +27,6 @@
     <link href="{{ asset('custom.css') }}" rel="stylesheet">
 
     <style type="text/css">.backpack.dropzone {
-            font-family: 'SF UI Display', 'Segoe UI';
             font-size: 15px;
             text-align: center;
             display: flex;
