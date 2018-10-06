@@ -263,6 +263,9 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['t
     <script src="{{ asset('mapmarker.jquery.js') }}"></script>
     <script src="{{ asset('mapmarker_func.jquery.js') }}"></script>
 
+    <script src="//geodata.solutions/includes/countrystatecity.js"></script>
+
+
     <script type="text/javascript">
     $(document).ready(function(){
     //Handles menu drop down

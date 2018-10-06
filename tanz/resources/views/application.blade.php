@@ -1571,6 +1571,5 @@ Note: all documents need to be in English or Kiswahili and colored copies
     </div></div>
 </div>
 
-<script src="//geodata.solutions/includes/countrystatecity.js"></script>
 
 @endsection
