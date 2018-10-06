@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<!-- saved from url=(0061)http://tz.croocky.com/acitdxb.com/tanzanians/status.aspx.html -->
+
 <html lang="en" id="ls-global"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<meta name="description" content="QUOTE - Request a quote for every type of companies">
-<meta name="author" content="Ansonika">
-<title>Tanzanians Abroad</title>
-<link rel="shortcut icon" href="http://acitdxb.com/tanzanians/img/favicon1.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="http://acitdxb.com/tanzanians/img/apple-touch-icon-57x57-precomposed1.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="http://acitdxb.com/tanzanians/img/apple-touch-icon-72x72-precomposed1.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="http://acitdxb.com/tanzanians/img/apple-touch-icon-114x114-precomposed1.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="http://acitdxb.com/tanzanians/img/apple-touch-icon-144x144-precomposed1.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="QUOTE - Request a quote for every type of companies">
+    <meta name="author" content="Ansonika">
+    <title>Tanzanians</title>
 
     <link rel="stylesheet" href="{{ asset('font-awesome.min.css') }}">
 
     <!-- GOOGLE WEB FONT -->
 
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet"> 
+    
     <!-- BASE CSS -->
 	<link href="{{ asset('layerslider.min.css') }}" rel="stylesheet">
     <link href="{{ asset('animate.min.css') }}" rel="stylesheet">
@@ -30,68 +26,69 @@
     <!-- YOUR CUSTOM CSS -->
     <link href="{{ asset('custom.css') }}" rel="stylesheet">
 
-<style></style><style type="text/css">.backpack.dropzone {
-  font-family: 'SF UI Display', 'Segoe UI';
-  font-size: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 150px;
-  font-weight: lighter;
-  color: white;
-  will-change: right;
-  z-index: 2147483647;
-  bottom: 20%;
-  background: #333;
-  position: fixed;
-  user-select: none;
-  transition: left .5s, right .5s;
-  right: 0px; }
-  .backpack.dropzone .animation {
-    height: 80px;
+    <style type="text/css">
+    .backpack.dropzone {
+    font-family: 'SF UI Display', 'Segoe UI';
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 250px;
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
-  .backpack.dropzone .title::before {
-    content: 'Save to'; }
-  .backpack.dropzone.closed {
-    right: -250px; }
-  .backpack.dropzone.hover .animation {
-    animation: sxt-play-anim-hover 0.91s steps(21);
-    animation-fill-mode: forwards;
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+    height: 150px;
+    font-weight: lighter;
+    color: white;
+    will-change: right;
+    z-index: 2147483647;
+    bottom: 20%;
+    background: #333;
+    position: fixed;
+    user-select: none;
+    transition: left .5s, right .5s;
+    right: 0px; }
+    .backpack.dropzone .animation {
+        height: 80px;
+        width: 250px;
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+    .backpack.dropzone .title::before {
+        content: 'Save to'; }
+    .backpack.dropzone.closed {
+        right: -250px; }
+    .backpack.dropzone.hover .animation {
+        animation: sxt-play-anim-hover 0.91s steps(21);
+        animation-fill-mode: forwards;
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
 
-@keyframes sxt-play-anim-hover {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -5250px; } }
-  .backpack.dropzone.saving .title::before {
-    content: 'Saving to'; }
-  .backpack.dropzone.saving .animation {
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
-    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+    @keyframes sxt-play-anim-hover {
+    from {
+        background-position: 0px; }
+    to {
+        background-position: -5250px; } }
+    .backpack.dropzone.saving .title::before {
+        content: 'Saving to'; }
+    .backpack.dropzone.saving .animation {
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+        animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
 
-@keyframes sxt-play-anim-saving {
-  100% {
-    background-position: -14750px; } }
-  .backpack.dropzone.saved .title::before {
-    content: 'Saved to'; }
-  .backpack.dropzone.saved .animation {
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
-    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+    @keyframes sxt-play-anim-saving {
+    100% {
+        background-position: -14750px; } }
+    .backpack.dropzone.saved .title::before {
+        content: 'Saved to'; }
+    .backpack.dropzone.saved .animation {
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+        animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
 
-@keyframes sxt-play-anim-saved {
-  100% {
-    background-position: -5000px; } }
-</style>
+    @keyframes sxt-play-anim-saved {
+    100% {
+        background-position: -5000px; } }
+    </style>
 
-<link rel="stylesheet" href="{{ asset('skin.css') }}" type="text/css">
-<script type="text/javascript" charset="UTF-8" src="{{ asset('common.js') }}"></script>
-<script type="text/javascript" charset="UTF-8" src="{{ asset('util.js') }}"></script>
-<script type="text/javascript" charset="UTF-8" src="{{ asset('stats.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('skin.css') }}" type="text/css">
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('common.js') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('util.js') }}"></script>
+    <script type="text/javascript" charset="UTF-8" src="{{ asset('stats.js') }}"></script>
 
 </head>
 
