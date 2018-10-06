@@ -1,6 +1,4 @@
-@extends('layouts.tanz')
 
-@section('content')
     <div class="row">
 
 
