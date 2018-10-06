@@ -146,12 +146,13 @@ return true;
         <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx"><span>Menu mobile</span></a>
         <nav class="main_nav">
             <ul class="nav nav-tabs"> 
-<li><a href="Default.aspx">Dashboard</a></li>
-<li><a href="about.aspx">About Us</a></li>
-<li><a href="services.aspx">Services</a></li>
+            <li><a href="/intro">Dashboard</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/services">Services</a></li>
+<!--<li id="welcome" style="top:0;right:0;">Welcome, <a class="" style="padding-left:0px;color: #22b700;font-weight:bold" href="my_dashboard.aspx">Yegor</a> <a class="" href="logout.aspx" style="color:red;">[Log Out]</a></li>-->
+
 <li><a href="http://www.immigration.go.tz/index.php/en/download/forms" target="_blank">Citizenship form</a></li>
-<li><a href="status.aspx">Status</a></li>
-<li><a href="Default.aspx">Faq</a></li>
+<li><a href="">Status</a></li>
 
 
 
