@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Barryvdh\DomPDF\PDF;
+use  Barryvdh\DomPDF\Facade as PDF;
 
 class HomeController extends Controller
 {
