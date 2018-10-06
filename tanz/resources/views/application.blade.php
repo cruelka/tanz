@@ -116,7 +116,7 @@ function __doPostBack(eventTarget, eventArgument) {
 }
 //]]>
 </script>
-
+<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js"></script>
 
 <script src="{{asset('form.js')}}"></script>
 
