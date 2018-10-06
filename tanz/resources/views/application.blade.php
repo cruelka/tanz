@@ -79,8 +79,8 @@
              
           
            <div class="col-md-12 form-group">
-                 <label>Nationality <img src="i.png" title="(i) Unknown; born in any other country other than Tanzania and do not hold any nationality.">
-                   <br>Utaifa <img src="i.png" title="(i) Haijulikani; umezaliwa katika nchi nyingine yoyote isipokuwa Tanzania na huna uraia wowote."></label>
+                 <label>Nationality <img src="{{asset('i.png')}}" title="(i) Unknown; born in any other country other than Tanzania and do not hold any nationality.">
+                   <br>Utaifa <img src="{{asset('i.png')}}" title="(i) Haijulikani; umezaliwa katika nchi nyingine yoyote isipokuwa Tanzania na huna uraia wowote."></label>
           
              <select name="ctl00$ContentPlaceHolder1$ddlnationality" class="country-select" id="ContentPlaceHolder1_ddlnationality" oninput="this.className = ''">
 
@@ -372,10 +372,10 @@
           </div>
            <div class="col-md-12 form-group">
                <label>I am requesting for citizenship of Tanzania by 
-                   <img src="i.png" title="(i)Birth -  born in Tanzania 
+                   <img src="{{asset('i.png')}}" title="(i)Birth -  born in Tanzania 
 (i)Descent -  my parent was born in Tanzania 
 (i)Registration - parent not born in Tanzania and holding Tanzanian passport" alt="(i) born in Tanzania\n(i) my parent was born in Tanzania\n(i) parent not born in Tanzania and holding Tanzanian passport">
-                   <br>Mimi naomba Uraia wa Tanzania kwa <img src="i.png" title="(i)Kuzaliwa -  nimezaliwa Tanzania 
+                   <br>Mimi naomba Uraia wa Tanzania kwa <img src="{{asset('i.png')}}" title="(i)Kuzaliwa -  nimezaliwa Tanzania 
 (i)Kurithi - mzazi wangu kazaliwa Tanzania 
 (i)Tajinisi - mzazi ambaye hajazaliwa Tanzania na kuwa na pasipoti ya Tanzania" alt="(i) born in Tanzania\n(i) my parent was born in Tanzania\n(i) parent not born in Tanzania and holding Tanzanian passport"></label>
              <select name="ctl00$ContentPlaceHolder1$ddlcitizen" id="ContentPlaceHolder1_ddlcitizen" oninput="this.className = ''">
@@ -449,8 +449,8 @@
 	</select>
             </div>
            <div class="form-group col-md-12">
-               <label>File number <img src="i.png" alt="the file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written." title="the file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written.">
-                   <br>namba ya faili <img src="i.png" alt="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono." title="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono."></label>
+               <label>File number <img src="{{asset('i.png')}}" alt="the file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written." title="the file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written.">
+                   <br>namba ya faili <img src="{{asset('i.png')}}" alt="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono." title="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono."></label>
           <input name="ctl00$ContentPlaceHolder1$txtfileno" type="text" id="ContentPlaceHolder1_txtfileno" oninput="this.className = ''">
             </div>
           
