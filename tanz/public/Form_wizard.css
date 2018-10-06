@@ -1,0 +1,140 @@
+﻿#regForm {
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 300px;
+    border: 1px solid #cccccc;
+}
+
+.prevBtn {
+    background-color: #bbbbbb !important;
+}
+/* Style the input fields */
+input, select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #aaaaaa;
+    max-height: 47px;
+}
+
+    /* Mark input boxes that gets an error on validation: */
+    input.invalid {
+        background-color: #ffdddd !important;
+    }
+
+    select.invalid {
+        background-color: #ffdddd;
+    }
+/* Hide all steps by default: */
+.tab1 {
+    display: none;
+    width: 93%;
+    margin: auto;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 30px 10px 35px;
+    position: relative;
+    display: block;
+    border: 0 !important;
+    border-radius: 0;
+    outline-style: none;
+    background: #f5f5f5;
+    float: left;
+    width: 19%;
+    text-align: center;
+}
+
+    .step:before {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 30px solid #ddd;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        margin-left: 1px;
+        left: 100%;
+        z-index: 1;
+    }
+
+    .step:after {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 30px solid whitesmoke;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        left: 100%;
+        z-index: 2;
+    }
+
+    .step.active:after {
+        border-left: 30px solid #5cb85c;
+    }
+    /* Mark the active step: */
+    .step.active {
+        opacity: 1;
+        border-color: #5cb85c !important;
+        color: #fff !important;
+        background: #5cb85c !important;
+    }
+
+    /* Mark the steps that are finished and valid: */
+    .step.finish {
+        background-color: #3b7f3b;
+    }
+
+        .step.finish:after {
+            content: " ";
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-left: 30px solid #3b7f3b;
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            left: 100%;
+            z-index: 2;
+        }
+
+        .step.finish.active:after {
+            content: " ";
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-left: 30px solid #5cb85c;
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            left: 100%;
+            z-index: 2;
+        }
+
+.tabcon {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0px;
+    /* background: #f5f5f5; */
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.step small {
+    font-size: 11px;
+}

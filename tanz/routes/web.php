@@ -38,4 +38,13 @@ Route::get('/terms', function () {
 Route::get('/disclaimer', function () {
     return view('terms');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('/application', function () {
+    return view('application');
+});
+
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
