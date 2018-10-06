@@ -28,7 +28,7 @@
     <link href="{{ asset('yellow.css') }}" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="{{ asset('publiccustom.css') }}" rel="stylesheet">
+    <link href="{{ asset('custom.css') }}" rel="stylesheet">
 
 <style></style><style type="text/css">.backpack.dropzone {
   font-family: 'SF UI Display', 'Segoe UI';
