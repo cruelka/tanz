@@ -21,6 +21,7 @@
     <link href="{{ asset('all_icons_min.css') }}" rel="stylesheet">
     <link href="{{ asset('magnific-popup.min.css') }}" rel="stylesheet">
     <link href="{{ asset('yellow.css') }}" rel="stylesheet">
+    <link href="{{ asset('Form_wizard.css') }}" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
     <link href="{{ asset('custom.css') }}" rel="stylesheet">
