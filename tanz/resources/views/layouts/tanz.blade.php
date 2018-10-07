@@ -515,7 +515,7 @@ $(document).ready(function(){
             
             if($(this).hasClass('country-select-one')){
 
-                $('city-select-one').empty().append(options);
+                $('.city-select-one').empty().append(options);
             }
         });
 
