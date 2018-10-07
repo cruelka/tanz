@@ -64,13 +64,13 @@
 </div>
           <div class="col-md-12 form-group"> 
               <label>Country of Birth<br>Nchi ya kuzaliwa</label>
-             <select class="country-select" name="countryofbirth" id="ContentPlaceHolder1_ddlcountry" oninput="this.className = ''">
+             <select class="country-select country-select-one" name="countryofbirth" id="ContentPlaceHolder1_ddlcountry" oninput="this.className = ''">
 
 			</select>
                 </div>
           <div class="col-md-12 form-group">
                  <label>Place of Birth<br>Mahali pa kuzaliwa</label>
-             <select name="placeofbirth" id="ContentPlaceHolder1_ddlcity" oninput="this.className = ''">
+             <select class="city-select city-select-one" name="placeofbirth" id="ContentPlaceHolder1_ddlcity" oninput="this.className = ''">
 	<option value=""></option>
 
 </select>

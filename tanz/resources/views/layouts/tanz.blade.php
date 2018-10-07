@@ -199,7 +199,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['t
 <li><a href="">Status</a></li>
 
 
-<li><a class="" data-toggle="modal" href="#myModal" style="background-color:#e5bf09; color:#222;">Login</a></li>
+<li><a class="" href="/login" style="background-color:#e5bf09; color:#222;">Login</a></li>
 
 
 
@@ -488,7 +488,7 @@ $(document).ready(function(){
 	var options = '<option value="">Select Country</option>';
 
 	for (key in countrydata.result) {
-		var option = '<option value="'+countrydata.result[key]+'" countryid="'+key+'">'+countrydata.result[key]+'</option>';
+		var option = '<option value="'+key+'" countryid="'+key+'">'+countrydata.result[key]+'</option>';
 		options = options + option;
 	}
 	
@@ -497,6 +497,33 @@ $(document).ready(function(){
     $('.datepicker').datepicker();
     $('.datepicker2').datepicker();
     $('.datepicker3').datepicker();
+
+    $('.country-select').change(function(){
+        var key = $(this).val();
+
+        $.get('https://geodata.solutions/api/api.php?type=getStates&countryId='+key+'&addClasses=order-alpha',function(data){
+            console.log(data);
+
+            var citydata = data.result;
+	
+            var options = '<option value="">Select City</option>';
+
+            for (key in citydata) {
+                var option = '<option value="'+citydata[key]+'" cityid="'+key+'">'+citydata[key]+'</option>';
+                options = options + option;
+            }
+            
+            if($(this).hasClass('country-select-one')){
+
+                $('city-select-one').empty().append(options);
+            }
+        });
+
+
+    });
+
+    
+    
 });
 
 </script>
