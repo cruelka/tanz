@@ -33,6 +33,7 @@
 								<br>
 								<small>Review &amp; Confirm</small>
 							</span>
+							<!--
 							<span class="step">Step 3
 								<br>
 								<small>Payment</small>
@@ -41,6 +42,7 @@
 								<br>
 								<small>Confirmation</small>
 							</span>
+							-->
 						</div>
 
 					</div>
@@ -57,7 +59,7 @@
 								<div class="form-group col-md-12">
 									<label>Full name (as per passport)
 										<br>Jina Kamili</label>
-									<input name="fullname" type="text" id="ContentPlaceHolder1_txtfullname" oninput="this.className = ''">
+									<input name="fullname" type="text" id="ContentPlaceHolder1_txtfullname"  >
 
 								</div>
 							</div>
@@ -65,13 +67,13 @@
 								<div class="form-group col-md-12">
 									<label>Date of Birth: DD/MM/YYYY
 										<br>Tarehe ya kuzaliwa</label>
-									<input class="datepicker" name="dateofbirth" type="text" id="ContentPlaceHolder1_txtdob" class="tcal tcalInput" oninput="this.className = ''">
+									<input class="datepicker" name="dateofbirth" type="text" id="ContentPlaceHolder1_txtdob" class="tcal tcalInput"  >
 
 								</div>
 								<div class="col-md-12 form-group">
 									<label>Gender
 										<br>Jinsia</label>
-									<select name="gender" id="ContentPlaceHolder1_ddlgender" oninput="this.className = ''">
+									<select name="gender" id="ContentPlaceHolder1_ddlgender"  >
 										<option value=""></option>
 										<option value="Male">Male/Mme</option>
 										<option value="Female">Female/Mke</option>
@@ -102,7 +104,7 @@
 										<img src="{{asset('i.png')}}" title="(i) Haijulikani; umezaliwa katika nchi nyingine yoyote isipokuwa Tanzania na huna uraia wowote.">
 									</label>
 
-									<select name="nationality" class="country-select" id="ContentPlaceHolder1_ddlnationality" oninput="this.className = ''">
+									<select name="nationality" class="country-select" id="ContentPlaceHolder1_ddlnationality"  >
 
 									</select>
 
@@ -112,7 +114,7 @@
 									<div class="col-md-12 form-group">
 										<label>Do you have Tanzanian Passport?
 											<br>Unayo pasipoti ya Tanzania?</label>
-										<select name="tanzpassport" id="ContentPlaceHolder1_ddldoyouhavepassport" oninput="this.className = ''">
+										<select name="tanzpassport" id="ContentPlaceHolder1_ddldoyouhavepassport"  >
 											<option selected="selected" value=""></option>
 											<option value="Yes">Yes/Ndio</option>
 											<option value="No">No/Hapana</option>
@@ -125,24 +127,24 @@
 								<div class="col-md-12 form-group">
 									<label>Father full name (as per passport)
 										<br>Jina kamili la baba mzazi</label>
-									<input name="fathername" type="text" id="ContentPlaceHolder1_txtfathername" oninput="this.className = ''">
+									<input name="fathername" type="text" id="ContentPlaceHolder1_txtfathername"  >
 								</div>
 								<div class="col-md-12 form-group">
 									<label>Mother full name (as per passport)
 										<br>Jina kamili la mama mzazi</label>
-									<input name="mathername" type="text" id="ContentPlaceHolder1_txtmothername" oninput="this.className = ''">
+									<input name="mathername" type="text" id="ContentPlaceHolder1_txtmothername"  >
 
 								</div>
 								<div class="col-md-4 form-group">
 									<label>P.O. Box
 										<br>Sanduku la Posta</label>
-									<input name="pobox" type="text" id="ContentPlaceHolder1_txtpobox" oninput="this.className = ''">
+									<input name="pobox" type="text" id="ContentPlaceHolder1_txtpobox"  >
 
 								</div>
 								<div class="col-md-4 form-group">
 									<label>Country
 										<br>Nchi</label>
-									<select name="countrynchi" class="country-select" id="ContentPlaceHolder1_ddlpocountry" oninput="this.className = ''">
+									<select name="countrynchi" class="country-select country-select-two" id="ContentPlaceHolder1_ddlpocountry" >
 
 									</select>
 
@@ -150,7 +152,7 @@
 								<div class="col-md-4 form-group">
 									<label>City
 										<br>Mahali</label>
-									<select name="citymahali" id="ContentPlaceHolder1_ddlpocity" oninput="this.className = ''">
+									<select class="city-select-two" name="citymahali" id="ContentPlaceHolder1_ddlpocity"  >
 										<option value=""></option>
 
 									</select>
@@ -159,7 +161,7 @@
 								<div class="col-md-2 form-group">
 									<label>Country Code
 										<br>Code ya nchi</label>
-									<select name="countrycode" id="ContentPlaceHolder1_ddlcountrycode" oninput="this.className = ''">
+									<select name="countrycode" id="ContentPlaceHolder1_ddlcountrycode"  >
 										<option value=""></option>
 										<option value="+1">+1</option>
 										<option value="+1-242">+1-242</option>
@@ -393,13 +395,13 @@
 									<label>Mobile Number
 										<br>Simu ya mkononi</label>
 									<input name="mobile" type="text" id="ContentPlaceHolder1_txtcontactno" placeholder="e.g: 501234567" onkeypress="return isNumberKey(event)"
-										oninput="this.className = ''">
+										 >
 
 								</div>
 								<div class="col-md-12 form-group">
 									<label>Email Address
 										<br>Anuani ya barua Pepe</label>
-									<input name="email" type="text" id="ContentPlaceHolder1_txtemail" oninput="this.className = ''">
+									<input name="email" type="text" id="ContentPlaceHolder1_txtemail"  >
 								</div>
 								<div class="col-md-12 form-group">
 									<label>I am requesting for citizenship of Tanzania by
@@ -411,7 +413,7 @@
 (i)Kurithi - mzazi wangu kazaliwa Tanzania
 (i)Tajinisi - mzazi ambaye hajazaliwa Tanzania na kuwa na pasipoti ya Tanzania" alt="(i) born in Tanzania\n(i) my parent was born in Tanzania\n(i) parent not born in Tanzania and holding Tanzanian passport">
 									</label>
-									<select name="miminaombauraia" id="ContentPlaceHolder1_ddlcitizen" oninput="this.className = ''">
+									<select name="miminaombauraia" id="ContentPlaceHolder1_ddlcitizen"  >
 										<option value=""></option>
 										<option value="Birth">Birth/Kuzaliwa</option>
 										<option value="Descent">Descent/Kurithi</option>
@@ -434,7 +436,7 @@
 											<div class="form-group col-md-12">
 												<label>Father/Mother
 													<br>Baba/Mama</label>
-												<select name="fatherbaba" id="ContentPlaceHolder1_ddlrelation" oninput="this.className = ''">
+												<select name="fatherbaba" id="ContentPlaceHolder1_ddlrelation"  >
 													<option selected="selected" value=""></option>
 													<option value="Father">Father/Baba</option>
 													<option value="Mother">Father/Mama</option>
@@ -444,13 +446,13 @@
 											<div class="form-group col-md-12">
 												<label>Full name (as per passport)
 													<br>Jina Kamili</label>
-												<input name="fullnamepassport" type="text" id="ContentPlaceHolder1_txtgardianfullname" oninput="this.className = ''">
+												<input name="fullnamepassport" type="text" id="ContentPlaceHolder1_txtgardianfullname"  >
 											</div>
 
 											<div class="col-md-12 form-group">
 												<label>Country of Birth
 													<br>Nchi ya kuzaliwa</label>
-												<select class="country-select" name="countryofbirth2" id="ContentPlaceHolder1_ddlcountryofbirth_g" oninput="this.className = ''">
+												<select class="country-select country-select-three" name="countryofbirth2" id="ContentPlaceHolder1_ddlcountryofbirth_g"  >
 
 
 												</select>
@@ -459,7 +461,7 @@
 											<div class="col-md-12 form-group">
 												<label>City of Birth
 													<br>Mahali pa kuzaliwa</label>
-												<select name="cityofbirth2" id="ContentPlaceHolder1_ddlcityofbirth_g" oninput="this.className = ''">
+												<select class="city-select-three" name="cityofbirth2" id="ContentPlaceHolder1_ddlcityofbirth_g"  >
 													<option value=""></option>
 
 												</select>
@@ -471,18 +473,18 @@
 											<label>Date of Birth: DD/MM/YYYY
 												<br>Tarehe ya kuzaliwa</label>
 											<input class="datepicker2" name="dateofbirth2" type="text" id="ContentPlaceHolder1_txtgardiandob" class="tcal tcalInput"
-												oninput="this.className = ''">
+												 >
 										</div>
 										<div class="form-group col-md-12">
 											<label>Passport Number
 												<br>namba ya pasipoti</label>
-											<input name="passportnumber" type="text" id="ContentPlaceHolder1_txtgardianpassportno" oninput="this.className = ''">
+											<input name="passportnumber" type="text" id="ContentPlaceHolder1_txtgardianpassportno"  >
 										</div>
 										<div class="form-group col-md-12">
 											<label>Date of Issue: DD/MM/YYYY
 												<br>Tarehe ya kutolewa</label>
 											<input class="datepicker3" name="dateofissue" type="text" id="ContentPlaceHolder1_txtgardiandateofissue" class="tcal tcalInput"
-												oninput="this.className = ''">
+												 >
 										</div>
 
 										<div id="ContentPlaceHolder1_UpdatePanel2" style="width:100%">
@@ -490,7 +492,7 @@
 											<div class="form-group col-md-12">
 												<label>Issuing Authority
 													<br>Mamlaka iliyotoa</label>
-												<select name="issuingauthority" id="ContentPlaceHolder1_ddlissuingauthority" oninput="this.className = ''">
+												<select name="issuingauthority" id="ContentPlaceHolder1_ddlissuingauthority"  >
 													<option selected="selected" value=""></option>
 													<option value="Dar Es Salam">Dar Es Salam</option>
 													<option value="Zanzibar">Zanzibar</option>
@@ -505,7 +507,7 @@
 													<img src="{{asset('i.png')}}" alt="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono."
 														title="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono.">
 												</label>
-												<input name="nambayafaili" type="text" id="ContentPlaceHolder1_txtfileno" oninput="this.className = ''">
+												<input name="nambayafaili" type="text" id="ContentPlaceHolder1_txtfileno"  >
 											</div>
 
 										</div>

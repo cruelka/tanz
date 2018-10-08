@@ -534,6 +534,18 @@
 
                         $('.city-select-one').empty().append(options);
                     }
+
+                    if ($(that).hasClass('country-select-two')) {
+
+                    $('.city-select-two').empty().append(options);
+                    }
+
+                    if ($(that).hasClass('country-select-three')) {
+
+                    $('.city-select-three').empty().append(options);
+                    }
+
+
                 });
 
 
