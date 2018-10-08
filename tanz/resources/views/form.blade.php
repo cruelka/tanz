@@ -12,9 +12,9 @@
 
 <p>(Under section 6 of the Constitution)</p>
 
-<p>I, {{name}} do solemnly and sincerely declare:</p>
+<p>I, {name} do solemnly and sincerely declare:</p>
 
-<p>1. That I was born at {{cityname}} in *Tanzania {{cityname}} and am of over the age of 21 years. </p>
+<p>1. That I was born at {cityname} in *Tanzania {citynam} and am of over the age of 21 years. </p>
 
 <p>2. That I am a citizen of Tanzania by *birth/descent/registration/naturalization and am also a national of {nationcountry} by *birth/descent/registration/naturalization/marriage.</p>
 
