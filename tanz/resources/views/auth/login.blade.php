@@ -79,10 +79,20 @@
 
     .col-md-6 {
         width: 100% !important;
+        max-width: 100% !important;
     }
 
     .col-md-4 {
         width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .panel-heading {
+        border-bottom: 1px solid #e2e2e2;
+        font-size: 1.5em;
+        margin: 15px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
     }
 </style>
 @endsection
