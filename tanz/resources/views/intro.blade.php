@@ -193,11 +193,11 @@ return true;
           
           
           <div id="login_div" class="form animated bounceIn">
-               <div style="width:500px; margin:10px auto;"> 
+               <div style="max-width:500px; margin:10px auto;"> 
           		 
                         
                    </div>
-  <div class="login-wrap" style="background-color:#666; width:500px; margin:10px auto;"> 
+  <div class="login-wrap" style="background-color:#666; max-width:500px; margin:10px auto;"> 
         
     <input class="ajaxmail" name="txtemail" type="text" id="txtemail" placeholder="Email" style="padding:6px 10px; margin:10px 0; border:0;">
        <span id="CustomValidator2" style="display:none;"></span>
@@ -430,10 +430,12 @@ function ValidatorOnSubmit() {
         @media screen and (max-width: 768px){
             .ajaxmail {
             display: block;
+            width: 100%;
             }
 
             .ajaxpass {
                 display: block;
+                width: 100%;
             }
 
             #btnsubscribe {
