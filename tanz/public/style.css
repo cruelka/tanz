@@ -2057,7 +2057,7 @@ blockquote.styled small:before {
 
 @media (max-width:480px) {
     .subheader {
-        margin: 0 -65px 5px
+        margin: 0 0 5px
     }
     footer ul li,
     footer ul li:first-child {
