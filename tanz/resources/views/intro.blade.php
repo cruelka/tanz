@@ -404,6 +404,7 @@ function ValidatorOnSubmit() {
 
             formData.append('email',ajaxmail);
             formData.append('password',ajaxpass);
+            formData.append('_token',$('meta[name="csrf-token"]').attr('content'));
 
             $.ajax({
                 url: '/login', // le nom du fichier indiqué dans le formulaire
