@@ -516,6 +516,8 @@
             $('.country-select').change(function () {
                 var key = $(this).val();
 
+                var that = this;
+
                 $.get('https://geodata.solutions/api/api.php?type=getStates&countryId=' + key + '&addClasses=order-alpha', function (data) {
                     console.log(data);
 
@@ -528,7 +530,7 @@
                         options = options + option;
                     }
 
-                    if ($(this).hasClass('country-select-one')) {
+                    if ($(that).hasClass('country-select-one')) {
 
                         $('.city-select-one').empty().append(options);
                     }
