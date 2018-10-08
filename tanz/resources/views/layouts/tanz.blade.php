@@ -519,7 +519,6 @@
                 var that = this;
 
                 $.get('https://geodata.solutions/api/api.php?type=getStates&countryId=' + key + '&addClasses=order-alpha', function (data) {
-                    console.log(data);
 
                     var citydata = data.result;
 
@@ -550,6 +549,20 @@
 
 
             });
+
+            var applicationData = {};
+
+            $('.applicationinput').change(function(){
+                var value = $(this).val();
+                var key = $(this).attr('name');
+
+                applicationData[key] = value;
+                
+                console.log(applicationData);
+            });
+
+            
+
 
 
 
