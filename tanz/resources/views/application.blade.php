@@ -73,7 +73,7 @@
 								<div class="col-md-12 form-group">
 									<label>Gender
 										<br>Jinsia</label>
-									<select name="gender" id="ContentPlaceHolder1_ddlgender"  >
+									<select name="gender" class="applicationselect"  >
 										<option value=""></option>
 										<option value="Male">Male/Mme</option>
 										<option value="Female">Female/Mke</option>
@@ -84,12 +84,12 @@
 								<div class="col-md-12 form-group">
 									<label>Country of Birth
 										<br>Nchi ya kuzaliwa</label>
-									<select class="country-select country-select-one" name="countryofbirth" id="ContentPlaceHolder1_ddlcountry" ></select>
+									<select class="country-select country-select-one applicationselect" name="countryofbirth" ></select>
 								</div>
 								<div class="col-md-12 form-group">
 									<label>Place of Birth
 										<br>Mahali pa kuzaliwa</label>
-									<select class="city-select city-select-one" name="placeofbirth" id="ContentPlaceHolder1_ddlcity" >
+									<select class="city-select city-select-one applicationselect" name="placeofbirth" >
 										<option value=""></option>
 
 									</select>
@@ -104,7 +104,7 @@
 										<img src="{{asset('i.png')}}" title="(i) Haijulikani; umezaliwa katika nchi nyingine yoyote isipokuwa Tanzania na huna uraia wowote.">
 									</label>
 
-									<select name="nationality" class="country-select" id="ContentPlaceHolder1_ddlnationality"  >
+									<select name="nationality" class="country-select applicetionselect"  >
 
 									</select>
 
@@ -114,7 +114,7 @@
 									<div class="col-md-12 form-group">
 										<label>Do you have Tanzanian Passport?
 											<br>Unayo pasipoti ya Tanzania?</label>
-										<select name="tanzpassport" id="ContentPlaceHolder1_ddldoyouhavepassport"  >
+										<select name="tanzpassport" class="applicationselect"  >
 											<option selected="selected" value=""></option>
 											<option value="Yes">Yes/Ndio</option>
 											<option value="No">No/Hapana</option>
@@ -144,7 +144,7 @@
 								<div class="col-md-4 form-group">
 									<label>Country
 										<br>Nchi</label>
-									<select name="countrynchi" class="country-select country-select-two" id="ContentPlaceHolder1_ddlpocountry" >
+									<select name="countrynchi" class="country-select country-select-two applicationselect"  >
 
 									</select>
 
@@ -152,7 +152,7 @@
 								<div class="col-md-4 form-group">
 									<label>City
 										<br>Mahali</label>
-									<select class="city-select-two" name="citymahali" id="ContentPlaceHolder1_ddlpocity"  >
+									<select class="city-select-two applicationselect" name="citymahali"  >
 										<option value=""></option>
 
 									</select>
@@ -161,7 +161,7 @@
 								<div class="col-md-2 form-group">
 									<label>Country Code
 										<br>Code ya nchi</label>
-									<select name="countrycode" id="ContentPlaceHolder1_ddlcountrycode"  >
+									<select name="countrycode" class="applicationselect"  >
 										<option value=""></option>
 										<option value="+1">+1</option>
 										<option value="+1-242">+1-242</option>
@@ -412,7 +412,7 @@
 (i)Kurithi - mzazi wangu kazaliwa Tanzania
 (i)Tajinisi - mzazi ambaye hajazaliwa Tanzania na kuwa na pasipoti ya Tanzania" alt="(i) born in Tanzania\n(i) my parent was born in Tanzania\n(i) parent not born in Tanzania and holding Tanzanian passport">
 									</label>
-									<select name="miminaombauraia" id="ContentPlaceHolder1_ddlcitizen"  >
+									<select name="miminaombauraia" class="applicationselect" >
 										<option value=""></option>
 										<option value="Birth">Birth/Kuzaliwa</option>
 										<option value="Descent">Descent/Kurithi</option>
@@ -435,7 +435,7 @@
 											<div class="form-group col-md-12">
 												<label>Father/Mother
 													<br>Baba/Mama</label>
-												<select name="fatherbaba" id="ContentPlaceHolder1_ddlrelation"  >
+												<select name="fatherbaba" class="applicationselect" >
 													<option selected="selected" value=""></option>
 													<option value="Father">Father/Baba</option>
 													<option value="Mother">Father/Mama</option>
@@ -451,7 +451,7 @@
 											<div class="col-md-12 form-group">
 												<label>Country of Birth
 													<br>Nchi ya kuzaliwa</label>
-												<select class="country-select country-select-three" name="countryofbirth2" id="ContentPlaceHolder1_ddlcountryofbirth_g"  >
+												<select class="country-select country-select-three applicationselect" name="countryofbirth2"  >
 
 
 												</select>
@@ -460,7 +460,7 @@
 											<div class="col-md-12 form-group">
 												<label>City of Birth
 													<br>Mahali pa kuzaliwa</label>
-												<select class="city-select-three" name="cityofbirth2" id="ContentPlaceHolder1_ddlcityofbirth_g"  >
+												<select class="city-select-three applicationselect" name="cityofbirth2"   >
 													<option value=""></option>
 
 												</select>
@@ -489,7 +489,7 @@
 											<div class="form-group col-md-12">
 												<label>Issuing Authority
 													<br>Mamlaka iliyotoa</label>
-												<select name="issuingauthority" id="ContentPlaceHolder1_ddlissuingauthority"  >
+												<select name="issuingauthority" class="applicationselect"  >
 													<option selected="selected" value=""></option>
 													<option value="Dar Es Salam">Dar Es Salam</option>
 													<option value="Zanzibar">Zanzibar</option>

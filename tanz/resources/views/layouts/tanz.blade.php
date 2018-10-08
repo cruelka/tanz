@@ -552,7 +552,8 @@
 
             var applicationData = {};
 
-            $('.applicationinput').change(function(){
+
+            $('.applicationinput').keyup(function(){
                 var value = $(this).val();
                 var key = $(this).attr('name');
 
@@ -560,6 +561,17 @@
                 
                 console.log(applicationData);
             });
+
+            $('.applicationselect').change(function(){
+                var value = $(this).val();
+                var key = $(this).attr('name');
+
+                applicationData[key] = value;
+                
+                console.log(applicationData);
+            });
+
+            
 
             
 
