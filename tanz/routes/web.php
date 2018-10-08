@@ -12,8 +12,9 @@
 */
 
 Route::get('/', function () {
+    
     return view('intro');
-});
+})->middleware('guest');
 
 Route::get('/intro', function () {
     return view('intro');
@@ -50,3 +51,4 @@ Route::get('/test','HomeController@test');
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
+

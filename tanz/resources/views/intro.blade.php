@@ -425,6 +425,12 @@ function ValidatorOnSubmit() {
             }); 
         }
     </script>
+
+    <style>
+        .ajaxmail {
+            
+        }
+    </style>
 </body>
 
 
