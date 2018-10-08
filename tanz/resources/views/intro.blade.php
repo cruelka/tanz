@@ -395,7 +395,8 @@ function ValidatorOnSubmit() {
     </script>
 
     <script>
-        function ajaxLogin(){
+        function ajaxLogin(Event){
+            Event.preventDefault();
             var ajaxmail = $('.ajaxmail').val();
             var ajaxpass = $('.ajaxpass').val();
 
@@ -405,7 +406,7 @@ function ValidatorOnSubmit() {
             form.append('password',ajaxpass);
 
             $.post('/login',form, function(data){
-                window.location = '/home';
+                
             })
         }
     </script>
