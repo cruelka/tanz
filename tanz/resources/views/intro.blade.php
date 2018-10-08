@@ -405,12 +405,6 @@ function ValidatorOnSubmit() {
             formData.append('email',ajaxmail);
             formData.append('password',ajaxpass);
 
-            $.ajaxSetup({ 
-            headers: { 
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content');
-            } 
-            });
-
             $.ajax({
                 url: '/login', // le nom du fichier indiqué dans le formulaire
                 type: 'POST', // la méthode indiquée dans le formulaire (get ou post)
@@ -418,6 +412,9 @@ function ValidatorOnSubmit() {
                 //data : $(this).serialize(),
                 data: formData ,
                 processData: false,
+                beforeSend: function(xhrObj){
+                xhrObj.setRequestHeader("X-CSRFToken",$('meta[name="csrf-token"]').attr('content'));
+                },
                 contentType: false,
                 success: function(data) { // je récupère la réponse du fichier PHP
                     console.log(data);
