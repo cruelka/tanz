@@ -93,7 +93,7 @@
 </head>
 
 <body>
-<form method="post" action="./Default.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<form method="post" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
@@ -198,13 +198,13 @@ return true;
                    </div>
   <div style="background-color:#666; width:500px; margin:10px auto;"> 
         
-    <input name="txtemail" type="text" id="txtemail" placeholder="Email" style="padding:6px 10px; margin:10px 0; border:0;">
+    <input class="ajaxmail" name="txtemail" type="text" id="txtemail" placeholder="Email" style="padding:6px 10px; margin:10px 0; border:0;">
        <span id="CustomValidator2" style="display:none;"></span>
       <span id="CustomValidator4" style="display:none;"></span>  
            
-    <input name="txtpassword" type="password" id="txtpassword" placeholder="Password" style="padding:6px 10px; margin:10px 0; border:0;">
+    <input class="ajaxpass" name="txtpassword" type="password" id="txtpassword" placeholder="Password" style="padding:6px 10px; margin:10px 0; border:0;">
       <span id="CustomValidator1" style="display:none;"></span>
-    <button onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate('bls1'); __doPostBack('btnsubscribe','')" id="btnsubscribe" style="background-color:#2db34b; padding:7px 30px; border:0; margin:10px 0; color:#fff;" validationgroup="bls1">Login</button>
+    <button onclick="ajaxLogin()" id="btnsubscribe" style="background-color:#2db34b; padding:7px 30px; border:0; margin:10px 0; color:#fff;" validationgroup="bls1">Login</button>
   </div>
   
   
@@ -392,6 +392,22 @@ function ValidatorOnSubmit() {
                    }
 
                }
+    </script>
+
+    <script>
+        function ajaxLogin(){
+            var ajaxmail = $('.ajaxmail').val();
+            var ajaxpass = $('.ajaxpass').val();
+
+            var form = new FormData();
+
+            form.append('email',ajaxmail);
+            form.append('password',ajaxpass);
+
+            $.post('/login',form, function(data){
+                window.location = '/home';
+            })
+        }
     </script>
 </body>
 
