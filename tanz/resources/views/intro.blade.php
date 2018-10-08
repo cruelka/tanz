@@ -419,6 +419,7 @@ function ValidatorOnSubmit() {
                 contentType: false,
                 success: function(data) { // je récupère la réponse du fichier PHP
                     console.log(data);
+                    window.location = '/home';
                 }        
                 //return false; //
             }); 
