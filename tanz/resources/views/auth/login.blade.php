@@ -68,4 +68,21 @@
         </div>
     </div>
 </div>
+
+<style>
+    .panel {
+        margin: 0 auto;
+    background: white;
+    max-width: 400px;
+    padding: 15px;
+    }
+
+    .col-md-6 {
+        width: 100% !important;
+    }
+
+    .col-md-4 {
+        width: 100% !important;
+    }
+</style>
 @endsection
