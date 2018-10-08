@@ -3,8 +3,8 @@
     <img  src = 'http://tanzaniansabroad.com/logo.png'>
 </div>
 -->
-
-<p>THE UNITED REPUBLIC OF TANZANIA</p>
+<div style="text-align:center">
+<p style="font-size: 2em">THE UNITED REPUBLIC OF TANZANIA</p>
 
 <p>The Third Schedule</p>
 
@@ -25,6 +25,7 @@
 <p>*Magistrate/Commissioner for Oaths </p>
 
 <p>*Delete in applicable.</p>
+</div>
 
 <!--
 <p>OR</p>
