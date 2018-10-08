@@ -202,10 +202,19 @@
                         <a href="">Status</a>
                     </li>
 
-
+                    @guest
                     <li>
                         <a class="" href="/login" style="background-color:#e5bf09; color:#222;">Login</a>
                     </li>
+                    @else
+                    <li>
+                        <a class="" style="background-color:#e5bf09; color:#222;">{{ Auth::user()->name }}</a>
+                    </li>
+                    <li>
+                        <a href="/logout" >Log Out</a>
+                    </li>
+                    
+                    @endguest
 
 
 
