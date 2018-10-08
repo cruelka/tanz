@@ -59,7 +59,7 @@
 								<div class="form-group col-md-12">
 									<label>Full name (as per passport)
 										<br>Jina Kamili</label>
-									<input name="fullname" type="text" id="ContentPlaceHolder1_txtfullname"  >
+									<input name="fullname" type="text" class="applicationinput" >
 
 								</div>
 							</div>
@@ -67,7 +67,7 @@
 								<div class="form-group col-md-12">
 									<label>Date of Birth: DD/MM/YYYY
 										<br>Tarehe ya kuzaliwa</label>
-									<input class="datepicker" name="dateofbirth" type="text" id="ContentPlaceHolder1_txtdob" class="tcal tcalInput"  >
+									<input class="datepicker applicationinput" name="dateofbirth" type="text"   >
 
 								</div>
 								<div class="col-md-12 form-group">
@@ -127,18 +127,18 @@
 								<div class="col-md-12 form-group">
 									<label>Father full name (as per passport)
 										<br>Jina kamili la baba mzazi</label>
-									<input name="fathername" type="text" id="ContentPlaceHolder1_txtfathername"  >
+									<input name="fathername" type="text" class="applicationinput" >
 								</div>
 								<div class="col-md-12 form-group">
 									<label>Mother full name (as per passport)
 										<br>Jina kamili la mama mzazi</label>
-									<input name="mathername" type="text" id="ContentPlaceHolder1_txtmothername"  >
+									<input name="mathername" type="text" class="applicationinput"  >
 
 								</div>
 								<div class="col-md-4 form-group">
 									<label>P.O. Box
 										<br>Sanduku la Posta</label>
-									<input name="pobox" type="text" id="ContentPlaceHolder1_txtpobox"  >
+									<input name="pobox" type="text" class="applicationinput"  >
 
 								</div>
 								<div class="col-md-4 form-group">
@@ -394,14 +394,13 @@
 								<div class="col-md-10 form-group">
 									<label>Mobile Number
 										<br>Simu ya mkononi</label>
-									<input name="mobile" type="text" id="ContentPlaceHolder1_txtcontactno" placeholder="e.g: 501234567" onkeypress="return isNumberKey(event)"
-										 >
+									<input name="mobile" type="text" class="applicationinput" placeholder="e.g: 501234567">
 
 								</div>
 								<div class="col-md-12 form-group">
 									<label>Email Address
 										<br>Anuani ya barua Pepe</label>
-									<input name="email" type="text" id="ContentPlaceHolder1_txtemail"  >
+									<input name="email" type="text" class="applicationinput" >
 								</div>
 								<div class="col-md-12 form-group">
 									<label>I am requesting for citizenship of Tanzania by
@@ -446,7 +445,7 @@
 											<div class="form-group col-md-12">
 												<label>Full name (as per passport)
 													<br>Jina Kamili</label>
-												<input name="fullnamepassport" type="text" id="ContentPlaceHolder1_txtgardianfullname"  >
+												<input name="fullnamepassport" type="text" class="applicationinput" >
 											</div>
 
 											<div class="col-md-12 form-group">
@@ -472,19 +471,17 @@
 										<div class="form-group col-md-12">
 											<label>Date of Birth: DD/MM/YYYY
 												<br>Tarehe ya kuzaliwa</label>
-											<input class="datepicker2" name="dateofbirth2" type="text" id="ContentPlaceHolder1_txtgardiandob" class="tcal tcalInput"
-												 >
+											<input class="datepicker2 applicationinput" name="dateofbirth2" type="text">
 										</div>
 										<div class="form-group col-md-12">
 											<label>Passport Number
 												<br>namba ya pasipoti</label>
-											<input name="passportnumber" type="text" id="ContentPlaceHolder1_txtgardianpassportno"  >
+											<input name="passportnumber" type="text" class="applicationinput" >
 										</div>
 										<div class="form-group col-md-12">
 											<label>Date of Issue: DD/MM/YYYY
 												<br>Tarehe ya kutolewa</label>
-											<input class="datepicker3" name="dateofissue" type="text" id="ContentPlaceHolder1_txtgardiandateofissue" class="tcal tcalInput"
-												 >
+											<input class="datepicker3 applicationinput" name="dateofissue" type="text" >
 										</div>
 
 										<div id="ContentPlaceHolder1_UpdatePanel2" style="width:100%">
@@ -507,7 +504,7 @@
 													<img src="{{asset('i.png')}}" alt="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono."
 														title="namba ya faili inaweza kupatikana kwenye ukurasa wa mwisho au kabla wa mwisho wa pasipoti ya mzazi. Namba imeandikwa kwa mkono.">
 												</label>
-												<input name="nambayafaili" type="text" id="ContentPlaceHolder1_txtfileno"  >
+												<input name="nambayafaili" type="text" class="applicationinput"  >
 											</div>
 
 										</div>
