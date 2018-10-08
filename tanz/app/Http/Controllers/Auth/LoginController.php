@@ -48,4 +48,9 @@ class LoginController extends Controller
     {
         return array_add($request->only($this->username(), 'password'), 'verified', true);
     }
+
+    public function logout(Request $request) {
+        Auth::logout();
+        return redirect('/login');
+      }
 }

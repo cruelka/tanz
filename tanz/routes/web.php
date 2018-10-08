@@ -48,3 +48,5 @@ Route::get('/application', function () {
 });
 Route::get('/test','HomeController@test');
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
+
+Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
