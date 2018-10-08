@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container" style="width: 100%;overflow-x: hidden;">
+<div class="" style="width: 100%;overflow-x: hidden;">
 
 
 <div class="row">
