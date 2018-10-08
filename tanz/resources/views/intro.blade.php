@@ -93,7 +93,7 @@
 </head>
 
 <body>
-<form method="post" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<form id="form1">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
@@ -396,18 +396,28 @@ function ValidatorOnSubmit() {
 
     <script>
         function ajaxLogin(Event){
-            Event.preventDefault();
+            
             var ajaxmail = $('.ajaxmail').val();
             var ajaxpass = $('.ajaxpass').val();
 
-            var form = new FormData();
+            var formData = new FormData();
 
-            form.append('email',ajaxmail);
-            form.append('password',ajaxpass);
+            formData.append('email',ajaxmail);
+            formData.append('password',ajaxpass);
 
-            $.post('/login',form, function(data){
-                console.log(data);
-            })
+            $.ajax({
+                url: '/login', // le nom du fichier indiqué dans le formulaire
+                type: 'POST', // la méthode indiquée dans le formulaire (get ou post)
+                cache: false,
+                //data : $(this).serialize(),
+                data: formData ,
+                processData: false,
+                contentType: false,
+                success: function(data) { // je récupère la réponse du fichier PHP
+                    console.log(data);
+                }        
+                //return false; //
+            }); 
         }
     </script>
 </body>
