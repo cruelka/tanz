@@ -183,7 +183,7 @@ return true;
         
         
    
-     <div style="position: absolute; top:33%;  z-index:1000; width:100%; text-align:center;">
+     <div class="etodelaldalebash" style="position: absolute; top:33%;  z-index:1000; width:100%; text-align:center;">
          
          
          
@@ -444,6 +444,10 @@ function ValidatorOnSubmit() {
 
             .login-wrap {
                 padding: 15px;
+            }
+
+            .etodelaldalebash {
+                top: 10%;
             }
         }
         

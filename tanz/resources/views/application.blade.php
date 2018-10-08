@@ -8,7 +8,7 @@
 <div class="row">
 	<div class="col-lg-12">
 		<div style=" margin:0 auto; background-color:#FFF; padding:20px;">
-			<img src="text.png">
+			<img src="text.png" style="width: 100%; max-width: 200px;">
 			<h2>Applying for self
 				<br>Muombaji binafsi</h2>
 			<div class="tab">
