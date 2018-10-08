@@ -406,7 +406,7 @@ function ValidatorOnSubmit() {
             form.append('password',ajaxpass);
 
             $.post('/login',form, function(data){
-                
+                console.log(data);
             })
         }
     </script>
