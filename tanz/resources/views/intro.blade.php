@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="description" content="QUOTE - Request a quote for every type of companies">
     <meta name="author" content="Ansonika">
+    <meta name="csrf-token" content="{{ csrf_token() }}"> 
     <title>Tanzanians</title>
 
     <link rel="stylesheet" href="{{ asset('font-awesome.min.css') }}">
@@ -403,6 +404,12 @@ function ValidatorOnSubmit() {
 
             formData.append('email',ajaxmail);
             formData.append('password',ajaxpass);
+
+            $.ajaxSetup({ 
+            headers: { 
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content');
+            } 
+            });
 
             $.ajax({
                 url: '/login', // le nom du fichier indiqué dans le formulaire
