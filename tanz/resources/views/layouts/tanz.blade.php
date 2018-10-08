@@ -245,7 +245,7 @@
 
             <div class="subheader" id="about"></div>
 
-            <div style="padding: 30px;">
+            <div style="padding: 15px;">
 
                 @yield('content')
 
