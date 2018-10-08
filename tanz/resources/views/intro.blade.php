@@ -93,7 +93,7 @@
 </head>
 
 <body>
-<form id="form1">
+
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
@@ -338,7 +338,6 @@ function ValidatorOnSubmit() {
 }
         //]]>
 </script>
-</form>
 
     <script type="text/javascript">
 
