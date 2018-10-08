@@ -1,6 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.tanz')
 
 @section('content')
+<!--
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -20,4 +21,21 @@
         </div>
     </div>
 </div>
+-->
+<div class="row">
+                                                            
+                                           
+                                                            <div class="col-lg-3">
+                                                                        <a href="/application"><img src="{{ asset('apply_self.png') }}"></a>
+                                                                     </div>
+                                                            <div class="col-lg-3">
+                                                                         <a href="/application"><img src="{{ asset('apply_someone.png') }}"></a>
+                                                                     </div>
+                                                            <div class="col-lg-3">
+                                                                         <a href="/status"><img src="{{ asset('view_application.png') }}"></a>
+                                                                     </div>
+                                                            <div class="col-lg-3">
+                                                                         <a href="/settings"><img src="{{ asset('change_password.png') }}"></a>
+                                                                     </div>
+                                                 </div>
 @endsection
