@@ -185,7 +185,7 @@
             <nav class="main_nav">
                 <ul class="nav nav-tabs">
                     <li>
-                        <a href="/intro">Dashboard</a>
+                        <a href="/home">Dashboard</a>
                     </li>
                     <li>
                         <a href="/about">About Us</a>
