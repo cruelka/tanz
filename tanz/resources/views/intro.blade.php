@@ -197,7 +197,7 @@ return true;
           		 
                         
                    </div>
-  <div style="background-color:#666; width:500px; margin:10px auto;"> 
+  <div class="login-wrap" style="background-color:#666; width:500px; margin:10px auto;"> 
         
     <input class="ajaxmail" name="txtemail" type="text" id="txtemail" placeholder="Email" style="padding:6px 10px; margin:10px 0; border:0;">
        <span id="CustomValidator2" style="display:none;"></span>
@@ -427,9 +427,24 @@ function ValidatorOnSubmit() {
     </script>
 
     <style>
-        .ajaxmail {
-            
+        @media screen and (max-width: 768px){
+            .ajaxmail {
+            display: block;
+            }
+
+            .ajaxpass {
+                display: block;
+            }
+
+            #btnsubscribe {
+                display: block;
+            }
+
+            .login-wrap {
+                padding: 15px;
+            }
         }
+        
     </style>
 </body>
 
