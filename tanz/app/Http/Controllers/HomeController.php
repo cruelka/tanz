@@ -35,6 +35,7 @@ class HomeController extends Controller
             'isRemoteEnabled' => true
         ])->loadView('form', compact('data'));
         $name = microtime();
+        $handle = fopen('/storage/uploads/'.$name, 'w') or die('Cannot open file:  '.$name);
         $pdf->save('/storage/uploads/'.$name.'.pdf');
         return $name;
     }
