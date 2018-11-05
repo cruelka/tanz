@@ -1,0 +1,110 @@
+{
+    "heading": [
+        "Applying for self",
+        "Muombaji binafsi"
+    ],
+    "heading2": [
+        "Applying for someone else",
+        "Kumuombea mtu mwingine"
+    ],
+    "subheading": [
+        "Applicant Details",
+        "Muombaji binafsi"
+    ],
+    "relation": [
+        "Relation",
+        "Uhusiano"
+    ],
+    "fullname": [
+        "Full name (as per passport)",
+        "Jina Kamili"
+    ],
+    "countrycode": [
+        "Country Code",
+        "Code ya nchi"
+    ],
+    "phonenumber": [
+        "Phone number",
+        "Simu ya mkononi"
+    ],
+    "email": [
+        "Email Address",
+        "Anuani ya barua Pepe"
+    ],
+    "dateofbirth": [
+        "Date of Birth",
+        "Tarehe ya kuzaliwa"
+    ],
+    "gender": [
+        "Gender",
+        "Jinsia"
+    ],
+    "gender": [
+        "Gender",
+        "Jinsia"
+    ],
+    "countryofbirth": [
+        "Country of Birth",
+        "Nchi ya kuzaliwa"
+    ],
+    "placeofbirth": [
+        "Place of Birth",
+        "Mahali pa kuzaliwa"
+    ],
+    "nationality": [
+        "Nationality",
+        "Utaifa"
+    ],
+    "doyouhavepassport": [
+        "Do you have Tanzanian Passport?",
+        "Unayo pasipoti ya Tanzania?"
+    ],
+    "fatherfullname": [
+        "Father full name (as per passport)",
+        "Jina kamili la baba mzazi"
+    ],
+    "motherfullname": [
+        "Mother full name (as per passport)",
+        "Jina kamili la mama mzazi"
+    ],
+    "country": [
+        "Country",
+        "Nchi"
+    ],
+    "city": [
+        "City",
+        "Mahali"
+    ],
+    "reason": [
+        "I am requesting for citizenship of Tanzania by",
+        "Mimi naomba Uraia wa Tanzania kwa"
+    ],
+    "parentdetails": [
+        "Parent Details",
+        "Maelezo ya Mzazi"
+    ],
+    "parentdetails2": [
+        "Please provide parent's details who is Tanzanian",
+        "Maelezo ya mzazi mtanzania"
+    ],
+    "fathermother": [
+        "Father/Mother",
+        "Baba/Mama"
+    ],
+    "passportnumber": [
+        "Passport Number",
+        "Namba ya pasipoti"
+    ],
+    "issuingauthority": [
+        "Issuing Authority",
+        "Mamlaka iliyotoa"
+    ],
+    "filenumber": [
+        "File number",
+        "namba ya faili "
+    ],
+    "next": [
+        "Next",
+        "Endelea"
+    ]
+}

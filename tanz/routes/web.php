@@ -47,8 +47,30 @@ Route::get('/dashboard', function () {
 Route::get('/application', function () {
     return view('application');
 });
+
 Route::get('/test','HomeController@test');
+Route::post('/test','HomeController@test');
+
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
+Route::get('/template', function () {
+    return view('template');
+});
+
+Route::get('/apply', function () {
+    return view('apply');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/testhtml', function () {
+    return view('form');
+});
+
+Route::get('/applications', function () {
+    return view('applications');
+});

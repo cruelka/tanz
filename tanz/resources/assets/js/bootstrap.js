@@ -8,10 +8,30 @@ window._ = require('lodash');
  */
 
 try {
-    window.$ = window.jQuery = require('jquery');
+ 
 
-    require('bootstrap-sass');
+
+    
+    
 } catch (e) {}
+
+window.$ = window.jQuery = require('jquery');
+window.Popper = require('./resourse/core/popper.min.js');
+
+    window.moment = require('moment');
+
+    window.noUiSlider = require('nouislider');
+
+    require('./resourse/core/bootstrap-material-design.min.js');
+
+    
+    require('./resourse/plugins/bootstrap-datetimepicker.js');
+    require('./resourse/plugins/nouislider.min.js');
+    require('./resourse/plugins/jquery.sharrre.js');
+
+
+require('./resourse/material-kit.js');
+require('./resourse/custom.js');
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests

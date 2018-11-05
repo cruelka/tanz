@@ -14,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+       // $this->middleware('auth');
     }
 
     /**
@@ -26,13 +26,16 @@ class HomeController extends Controller
     {
         return view('home');
     }
-    public function test()
-{   $data = array('name' => 'yegor', 'sex' => '1');
+
+    public function test(Request $request)
+{   $data = $request;
         $pdf = PDF::setOptions([
             'logOutputFile' =>  storage_path('logs/log.htm'),
             'images' => true,
             'isRemoteEnabled' => true
         ])->loadView('form', compact('data'));
-        return $pdf->download('invoice.pdf');
+        $name = microtime();
+        $pdf->save('/storage/'.$name.'.pdf');
+        return $name;
     }
 }
