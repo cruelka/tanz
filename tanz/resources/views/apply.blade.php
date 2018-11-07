@@ -422,7 +422,7 @@
                       <div class="form-group">
                               <label class="label-control lang-block-countryofbirth">Country of Birth</label>
                               <div class="dropdown country-of-birth" data="4">
-                                      <button class="btn btn-secondary dropdown-toggle countryofbirth-data" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dropdown button
                                       </button>
                                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
