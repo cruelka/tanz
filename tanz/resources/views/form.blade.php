@@ -96,7 +96,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 81px;">
-                        Place
+                        
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 64px;">
-                        Place
+                        
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 51px;">
-                        Place
+                        {{ $data['nationality'] }}
                     </div>
                 </div>
             </div>

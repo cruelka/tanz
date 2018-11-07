@@ -236,7 +236,7 @@
                                     <div class="form-group">
                                             <label class="label-control lang-block-nationality">Nationality</label>
                                             <div class="dropdown country-of-birth" data="2">
-                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <button class="btn btn-secondary dropdown-toggle nationality-data" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                       Dropdown button
                                                     </button>
                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
