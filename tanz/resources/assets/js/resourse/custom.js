@@ -233,9 +233,9 @@ $(document).ready(function() {
 
           function getPDF(){
             let form = $('.apply-form').serialize();
-            let nat = $('.nationality-data').text.trim();
+            let nat = $('.nationality-data').text().trim();
             form.append('nationality',nat);
-            
+
             $.ajax({
               type: 'POST',
               url: '/test',

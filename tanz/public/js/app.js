@@ -54889,7 +54889,7 @@ $(document).ready(function () {
 
   function getPDF() {
     var form = $('.apply-form').serialize();
-    var nat = $('.nationality-data').text.trim();
+    var nat = $('.nationality-data').text().trim();
     form.append('nationality', nat);
 
     $.ajax({
