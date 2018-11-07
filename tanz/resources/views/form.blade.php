@@ -127,11 +127,11 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -26px;
                     @if($data['reason']==1)
-                    left: 190px;
+                    left: 180px;
                     @elseif($data['reason']==2)
-                    left: 220px;
+                    left: 210px;
                     @elseif($data['reason']==3)
-                    left: 270px;
+                    left: 240px;
                     @endif
                     "
                     
@@ -166,7 +166,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 261px;">
-                        Place
+                        {{ $data['countryofbirth'] }}
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                 
             </div>
             <div style="position:absolute;left:81.01px;top:411.15px" class="cls_008">
-                <span class="cls_008">………………………………….200 ……., before me.</span>
+                <span class="cls_008">………………………………….20 ……., before me.</span>
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -310,7 +310,8 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
             <div style="position:absolute;left:325.56px;top:681.36px" class="cls_008"><span class="cls_008">………………………………</span></div>
             <div style="position:absolute;left:370.92px;top:693.42px" class="cls_013"><span class="cls_013">Signature of Applicant</span></div>
             <div style="position:absolute;left:63.00px;top:717.60px" class="cls_008">
-                <span class="cls_008">Declared at …………………………..this……………………….day of …………200……, before me.</span>
+                <span class="cls_008">Declared at …………………………..this……………………….day of …………20……, before me.</span>
+                <!--
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -321,6 +322,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
+                -->
                 <div style="position:relative">
                     <div style="
                     position: absolute;

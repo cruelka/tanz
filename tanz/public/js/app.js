@@ -54890,13 +54890,25 @@ $(document).ready(function () {
   function getPDF() {
     var form = $('.apply-form');
 
-    var nat = $('.nationality-data').text().trim();
-
-    if ($('.nationality-hidden').length != 0) {
-      $('.nationality-hidden').val(nat);
-    } else {
-      form.append('<input class="nationality-hidden" name="nationality" type="hidden" value="' + nat + '" >');
+    function putHidden(name, val) {
+      if ($('.' + name + '-hidden').length != 0) {
+        $('.' + name + '-hidden').val(val);
+      } else {
+        form.append('<input class="' + name + '-hidden" name="' + name + '" type="hidden" value="' + val + '" >');
+      }
     }
+
+    var nat = $('.nationality-data').text().trim();
+    putHidden(nat, 'nationality');
+
+    var cob = $('.countryofbirth-data').text().trim();
+
+    putHidden(cob, 'countryofbirth');
+
+    var date = new Date();
+    var day = date.getDate();
+
+    putHidden(day, 'day');
 
     formS = form.serialize();
 

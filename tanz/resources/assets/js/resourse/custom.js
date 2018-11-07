@@ -234,15 +234,32 @@ $(document).ready(function() {
           function getPDF(){
             let form = $('.apply-form');
 
+            function putHidden(name,val){
+              if($('.'+name+'-hidden').length!=0){
+                $('.'+name+'-hidden').val(val);
+              } else {
+                form.append('<input class="'+name+'-hidden" name="'+name+'" type="hidden" value="'+val+'" >');
+                
+              }
+            }
 
             let nat = $('.nationality-data').text().trim();
+            putHidden(nat,'nationality');
 
-            if($('.nationality-hidden').length!=0){
-              $('.nationality-hidden').val(nat);
-            } else {
-              form.append('<input class="nationality-hidden" name="nationality" type="hidden" value="'+nat+'" >');
-              
-            }
+            let cob = $('.countryofbirth-data').text().trim();
+
+            putHidden(cob,'countryofbirth');
+
+            let date = new Date();
+            let day = date.getDate();
+
+            putHidden(day,'day');
+            
+
+
+            
+
+            
             
 
             formS = form.serialize();
