@@ -80,7 +80,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
     top: -14px;
     left: 9px;
     text-transform: uppercase;">
-                        Greg
+                        {{ $data[0]->fullname }}
                     </div>    
                 </div>
             </div>
