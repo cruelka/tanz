@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1 class="title">Tanzanian Abroad is a Private Entity.</h1>
-          <h4> It is responsible for providing Tanzania citizenship requirements, receiving the service fees, authentication of the application in Tanzania, submission of the applications to the Immigration in Tanzania (Uhamiaji) and updating the application status to the applicant/s. </h4>
+          <h4> It is responsible for providing Tanzania citizenship requirements, receiving the service fees, authentication of the application in Tanzania. </h4>
           <br>
           <a href="/apply" target="_blank" class="btn btn-danger btn-raised btn-lg">
             <i class="fa fa-play"></i> Apply now
