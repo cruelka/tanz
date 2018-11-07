@@ -35,7 +35,7 @@ class HomeController extends Controller
             'isRemoteEnabled' => true
         ])->loadView('form', compact('data'));
         $name = 'test';
-        $handle = fopen('/uploads/'.$name, 'w') or die('Cannot open file:  '.$name);
+
         $pdf->save('/uploads/'.$name.'.pdf');
         return $name;
     }
