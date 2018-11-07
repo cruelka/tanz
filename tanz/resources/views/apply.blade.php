@@ -75,7 +75,7 @@
   </div>
   <div class="main main-raised">
     <div class="section section-basic">
-        
+      <form class="apply-form">
       <div class="container">
           <div class="form-group">
               <h3 class="label-control lang-block-gender">Select form language</h3>
@@ -516,6 +516,7 @@
         
         
       </div>
+    </form>
     </div>
   
   <!--  End Modal -->

@@ -229,10 +229,13 @@ $(document).ready(function() {
 
           }
 
+          let form = $('.apply-form').serialize();
+
           function getPDF(){
             $.ajax({
               type: 'POST',
               url: '/test',
+              data: form,
               headers: {
                 'X-CSRF-TOKEN': token,
               },

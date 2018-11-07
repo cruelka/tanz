@@ -54887,10 +54887,13 @@ $(document).ready(function () {
     });
   }
 
+  var form = $('.apply-form').serialize();
+
   function getPDF() {
     $.ajax({
       type: 'POST',
       url: '/test',
+      data: form,
       headers: {
         'X-CSRF-TOKEN': token
       }
