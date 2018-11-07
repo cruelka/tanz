@@ -330,7 +330,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 54px;">
-                        Place
+                        {{ $data['day'] }}
                     </div>
                 </div>
                 <div style="position:relative">
