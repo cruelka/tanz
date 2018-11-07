@@ -4198,7 +4198,7 @@
   .navbar-brand img {
     margin: -20px;
     height: 100%;
-
+    margin-left: 10px;
   }
   
   .navbar-brand:hover,
