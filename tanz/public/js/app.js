@@ -54895,7 +54895,7 @@ $(document).ready(function () {
         'X-CSRF-TOKEN': token
       }
     }).done(function (data) {
-      window.open(data);
+      window.open('/uploads/' + data);
     });
   }
 
