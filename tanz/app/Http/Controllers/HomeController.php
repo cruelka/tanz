@@ -35,8 +35,9 @@ class HomeController extends Controller
             'isRemoteEnabled' => true
         ])->loadView('form', compact('data'));
         $name = 'test';
+        $path = '/var/www/www-root/data/www/tanzaniansabroad.com/tanz/tanz/public/uploads/';
 
-        $pdf->save($name.'.pdf');
+        $pdf->save($path.$name);
         return $name;
     }
 }
