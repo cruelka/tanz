@@ -54890,7 +54890,7 @@ $(document).ready(function () {
   function getPDF() {
     var form = $('.apply-form');
     var nat = $('.nationality-data').text().trim();
-    form.append('<input name="nationality" type="hidden" value="' + nat + '"');
+    form.append('<input name="nationality" type="hidden" value="' + nat + '" >');
 
     formS = form.serialize();
 
