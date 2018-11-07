@@ -39,9 +39,9 @@
             <div class="col-md-4">
               <div class="info">
                 <div class="icon icon-success">
-                  <i class="material-icons">Secure</i>
+                  <i class="material-icons">verified_user</i>
                 </div>
-                <h4 class="info-title">Verified Users</h4>
+                <h4 class="info-title">Secure</h4>
                 
               </div>
             </div>
