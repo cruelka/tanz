@@ -266,6 +266,7 @@ $(document).ready(function() {
 
 
             if(validate==false){
+              console.log('Validate Error');
               return false;
             }
 

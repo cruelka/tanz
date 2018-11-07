@@ -54918,6 +54918,7 @@ $(document).ready(function () {
     checkValidate(checkDrop);
 
     if (validate == false) {
+      console.log('Validate Error');
       return false;
     }
 
