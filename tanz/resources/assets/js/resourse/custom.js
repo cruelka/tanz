@@ -234,7 +234,7 @@ $(document).ready(function() {
           function getPDF(){
             let form = $('.apply-form');
 
-            function putHidden(name,val){
+            function putHidden(val,name){
               if($('.'+name+'-hidden').length!=0){
                 $('.'+name+'-hidden').val(val);
               } else {

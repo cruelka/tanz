@@ -54890,7 +54890,7 @@ $(document).ready(function () {
   function getPDF() {
     var form = $('.apply-form');
 
-    function putHidden(name, val) {
+    function putHidden(val, name) {
       if ($('.' + name + '-hidden').length != 0) {
         $('.' + name + '-hidden').val(val);
       } else {
