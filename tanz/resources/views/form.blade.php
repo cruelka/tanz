@@ -226,6 +226,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
             </div>
             <div style="position:absolute;left:279.01px;top:435.33px" class="cls_008">
                 <span class="cls_008">…………………………………………….</span>
+                <!--
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -236,6 +237,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
+                -->
             </div>
             <div style="position:absolute;left:294.78px;top:447.39px" class="cls_013"><span class="cls_013">*Magistrate/Commissioner for Oaths</span></div>
             <div style="position:absolute;left:264.90px;top:471.54px" class="cls_014"><span class="cls_014">*</span><span class="cls_015">Delete in applicable.</span></div>
@@ -243,6 +245,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
             <div style="position:absolute;left:206.40px;top:516.90px" class="cls_007"><span class="cls_007">(Under sections 3,4 and 7 of the Ordinance</span><span class="cls_013">)</span></div>
             <div style="position:absolute;left:81.00px;top:534.78px" class="cls_008">
                 <span class="cls_008">I, ………………………………………………………………………………………………</span>
+                <!--
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -253,6 +256,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
+                -->
             </div>
             <div style="position:absolute;left:475.20px;top:542.52px" class="cls_011"><span class="cls_011">Full name in</span></div>
             <div style="position:absolute;left:81.00px;top:546.84px" class="cls_008"><span class="cls_008">do solemnly and sincerely declare:-</span></div>
@@ -260,6 +264,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
             <div style="position:absolute;left:63.00px;top:564.66px" class="cls_008"><span class="cls_008">1.</span></div>
             <div style="position:absolute;left:81.01px;top:564.66px" class="cls_008">
                 <span class="cls_008">That I was born at …………………………………………………………………………….</span>
+                <!--
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -270,6 +275,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
+                -->
             </div>
             <div style="position:absolute;left:81.01px;top:576.72px" class="cls_008"><span class="cls_008">and am of or over the age of 21 years.</span></div>
             <div style="position:absolute;left:475.20px;top:578.52px" class="cls_011"><span class="cls_011">Insert name</span></div>
@@ -278,6 +284,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
             <div style="position:absolute;left:81.01px;top:594.54px" class="cls_008"><span class="cls_008">That I have been granted Tanzania citizenship/by *registration/naturalization on condition</span></div>
             <div style="position:absolute;left:81.00px;top:612.36px" class="cls_008">
                 <span class="cls_008">that I renounce my *citizenship/nationality of ………………………………………………</span>
+                <!--
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -288,6 +295,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
+                -->
             </div>
             <div style="position:absolute;left:475.20px;top:623.46px" class="cls_011"><span class="cls_011">Insert name</span></div>
             <div style="position:absolute;left:63.00px;top:630.18px" class="cls_008"><span class="cls_008">3.</span></div>
@@ -295,6 +303,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
             <div style="position:absolute;left:475.20px;top:633.78px" class="cls_011"><span class="cls_011">of Country</span></div>
             <div style="position:absolute;left:81.00px;top:648.00px" class="cls_008">
                 <span class="cls_008">……………………………………………………………………and any claim I have to the</span>
+                <!--
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -305,6 +314,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
+                -->
             </div>
             <div style="position:absolute;left:81.00px;top:660.12px" class="cls_008"><span class="cls_008">protection of that country.</span></div>
             <div style="position:absolute;left:475.20px;top:659.52px" class="cls_011"><span class="cls_011">Insert name</span></div>
@@ -324,7 +334,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
-                -->
+                
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -375,6 +385,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         P
                     </div>
                 </div>
+                -->
             </div>
             <div style="position:absolute;left:366.39px;top:741.73px" class="cls_008"><span class="cls_008">….…………………..………………</span></div>
             <div style="position:absolute;left:363.75px;top:753.79px" class="cls_013"><span class="cls_013">*Magistrate/Commissioner for Oaths</span></div>
