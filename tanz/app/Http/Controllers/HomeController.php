@@ -36,7 +36,7 @@ class HomeController extends Controller
         ])->loadView('form', compact('data'));
         $name = 'test';
 
-        $pdf->save('/uploads/'.$name.'.pdf');
+        $pdf->save($name.'.pdf');
         return $name;
     }
 }
