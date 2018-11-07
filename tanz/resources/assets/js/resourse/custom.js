@@ -243,16 +243,20 @@ $(document).ready(function() {
 
             function checkValidate(list){
               list.each(function(item){
-                let val = '';
+
                 if($(item).is('input')){
-                  val = $(this).val();
+                  let val = $(this).val();
+                  if(val==''){
+                    validate= false;
+                  }
                   
                 } else {
-                  val = $(item).text().trim();
+                  let val = $(item).text().trim();
+                  if(val=='Dropdown button'){
+                    validate= false;
+                  }
                 }
-                if(val==''){
-                  validate= false;
-                }
+                
               });
             }
 

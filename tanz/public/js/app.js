@@ -54898,14 +54898,17 @@ $(document).ready(function () {
 
     function checkValidate(list) {
       list.each(function (item) {
-        var val = '';
+
         if ($(item).is('input')) {
-          val = $(this).val();
+          var val = $(this).val();
+          if (val == '') {
+            validate = false;
+          }
         } else {
-          val = $(item).text().trim();
-        }
-        if (val == '') {
-          validate = false;
+          var _val = $(item).text().trim();
+          if (_val == 'Dropdown button') {
+            validate = false;
+          }
         }
       });
     }
