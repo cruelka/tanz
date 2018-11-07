@@ -236,10 +236,12 @@ $(document).ready(function() {
             let nat = $('.nationality-data').text().trim();
             form.append('nationality',nat);
 
+            formS = form.serialize();
+
             $.ajax({
               type: 'POST',
               url: '/test',
-              data: form,
+              data: formS,
               headers: {
                 'X-CSRF-TOKEN': token,
               },
