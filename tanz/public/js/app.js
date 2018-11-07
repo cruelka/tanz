@@ -54912,7 +54912,7 @@ $(document).ready(function () {
 
     var month = monthNames[date.getMonth()];
 
-    var year = date.getFullYear().slice(1).slice(1);;
+    var year = String(new Date().getFullYear()).slice(1).slice(1);
 
     putHidden(day, 'day');
     putHidden(month, 'month');
