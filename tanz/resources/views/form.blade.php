@@ -127,7 +127,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 51px;">
-                        {{ $data['nationality'] }}
+                        {{ dd($data) }}
                     </div>
                 </div>
             </div>
