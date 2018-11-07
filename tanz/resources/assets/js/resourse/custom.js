@@ -234,7 +234,7 @@ $(document).ready(function() {
           function getPDF(){
             let form = $('.apply-form');
             let nat = $('.nationality-data').text().trim();
-            form.append('nationality',nat);
+            form.append('<input name="nationality" type="hidden" value="'+nat+'"');
 
             formS = form.serialize();
 
