@@ -125,13 +125,13 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     position: absolute;
                     text-transform: uppercase;
                     font-weight: bold;
-                    top: -30px;
+                    top: -26px;
                     @if($data['reason']==1)
-                    left: 150px;
+                    left: 190px;
                     @elseif($data['reason']==2)
-                    left: 200px;
+                    left: 220px;
                     @elseif($data['reason']==3)
-                    left: 200px;
+                    left: 270px;
                     @endif
                     "
                     
