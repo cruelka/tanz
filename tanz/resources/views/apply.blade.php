@@ -15,6 +15,8 @@
   </div>
 </div>
 
+<div class="main main-raised">
+
     <div class="section section-basic">
       <form class="apply-form">
       <div class="container">
@@ -458,6 +460,8 @@
         
       </div>
     </form>
+    </div>
+
     </div>
 
     @endsection
