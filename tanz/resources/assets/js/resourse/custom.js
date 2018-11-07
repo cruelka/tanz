@@ -259,7 +259,7 @@ $(document).ready(function() {
 
             let month = monthNames[date.getMonth()];
 
-            let year = getYear().slice(1).slice(1);;
+            let year = date.getFullYear().slice(1).slice(1);;
 
             putHidden(day,'day');
             putHidden(month,'month');
