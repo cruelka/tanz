@@ -29,7 +29,6 @@ class HomeController extends Controller
 
     public function test(Request $request)
 {   $data = $request;
-    dd($request);
         $pdf = PDF::setOptions([
             'logOutputFile' =>  storage_path('logs/log.htm'),
             'images' => true,
