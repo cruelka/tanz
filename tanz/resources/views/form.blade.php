@@ -126,6 +126,21 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     text-transform: uppercase;
                     font-weight: bold;
                     top: -15px;
+                    left: 51px;"
+                    width: 10px;
+                    height: 10px;
+                    background-color: black;
+                    >
+                        
+                    </div>
+                </div>
+                <!--галочка-->
+                <div style="position:relative">
+                    <div style="
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    top: -15px;
                     left: 51px;">
                         {{ $data['nationality'] }}
                     </div>
