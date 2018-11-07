@@ -4584,7 +4584,7 @@
 
 
 var bind = __webpack_require__(130);
-var isBuffer = __webpack_require__(151);
+var isBuffer = __webpack_require__(152);
 
 /*global toString:true*/
 
@@ -15292,7 +15292,7 @@ module.exports = g;
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(1);
-var normalizeHeaderName = __webpack_require__(154);
+var normalizeHeaderName = __webpack_require__(155);
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -15382,7 +15382,7 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(153)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(154)))
 
 /***/ }),
 /* 5 */
@@ -29824,12 +29824,12 @@ module.exports = function bind(fn, thisArg) {
 
 
 var utils = __webpack_require__(1);
-var settle = __webpack_require__(155);
-var buildURL = __webpack_require__(157);
-var parseHeaders = __webpack_require__(158);
-var isURLSameOrigin = __webpack_require__(159);
+var settle = __webpack_require__(156);
+var buildURL = __webpack_require__(158);
+var parseHeaders = __webpack_require__(159);
+var isURLSameOrigin = __webpack_require__(160);
 var createError = __webpack_require__(132);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(160);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(161);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -29926,7 +29926,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(161);
+      var cookies = __webpack_require__(162);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -30010,7 +30010,7 @@ module.exports = function xhrAdapter(config) {
 "use strict";
 
 
-var enhanceError = __webpack_require__(156);
+var enhanceError = __webpack_require__(157);
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -30071,7 +30071,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(136);
-module.exports = __webpack_require__(169);
+module.exports = __webpack_require__(170);
 
 
 /***/ }),
@@ -30137,7 +30137,7 @@ __webpack_require__(147);
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
-window.axios = __webpack_require__(149);
+window.axios = __webpack_require__(150);
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
@@ -54867,7 +54867,7 @@ $(document).ready(function () {
     issuingAuthority();
   });
 
-  var lang = __webpack_require__(177);
+  var lang = __webpack_require__(149);
   window.lang = lang;
 
   function putLang(lang) {
@@ -56585,12 +56585,18 @@ module.exports = {
 
 /***/ }),
 /* 149 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__(150);
+module.exports = {"heading":["Applying for self","Muombaji binafsi"],"heading2":["Applying for someone else","Kumuombea mtu mwingine"],"subheading":["Applicant Details","Muombaji binafsi"],"relation":["Relation","Uhusiano"],"fullname":["Full name (as per passport)","Jina Kamili"],"countrycode":["Country Code","Code ya nchi"],"phonenumber":["Phone number","Simu ya mkononi"],"email":["Email Address","Anuani ya barua Pepe"],"dateofbirth":["Date of Birth","Tarehe ya kuzaliwa"],"gender":["Gender","Jinsia"],"countryofbirth":["Country of Birth","Nchi ya kuzaliwa"],"placeofbirth":["Place of Birth","Mahali pa kuzaliwa"],"nationality":["Nationality","Utaifa"],"doyouhavepassport":["Do you have Tanzanian Passport?","Unayo pasipoti ya Tanzania?"],"fatherfullname":["Father full name (as per passport)","Jina kamili la baba mzazi"],"motherfullname":["Mother full name (as per passport)","Jina kamili la mama mzazi"],"country":["Country","Nchi"],"city":["City","Mahali"],"reason":["I am requesting for citizenship of Tanzania by","Mimi naomba Uraia wa Tanzania kwa"],"parentdetails":["Parent Details","Maelezo ya Mzazi"],"parentdetails2":["Please provide parent's details who is Tanzanian","Maelezo ya mzazi mtanzania"],"fathermother":["Father/Mother","Baba/Mama"],"passportnumber":["Passport Number","Namba ya pasipoti"],"issuingauthority":["Issuing Authority","Mamlaka iliyotoa"],"filenumber":["File number","namba ya faili "],"next":["Next","Endelea"]}
 
 /***/ }),
 /* 150 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(151);
+
+/***/ }),
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56598,7 +56604,7 @@ module.exports = __webpack_require__(150);
 
 var utils = __webpack_require__(1);
 var bind = __webpack_require__(130);
-var Axios = __webpack_require__(152);
+var Axios = __webpack_require__(153);
 var defaults = __webpack_require__(4);
 
 /**
@@ -56633,14 +56639,14 @@ axios.create = function create(instanceConfig) {
 
 // Expose Cancel & CancelToken
 axios.Cancel = __webpack_require__(134);
-axios.CancelToken = __webpack_require__(167);
+axios.CancelToken = __webpack_require__(168);
 axios.isCancel = __webpack_require__(133);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(168);
+axios.spread = __webpack_require__(169);
 
 module.exports = axios;
 
@@ -56649,7 +56655,7 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 /*!
@@ -56676,7 +56682,7 @@ function isSlowBuffer (obj) {
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56684,8 +56690,8 @@ function isSlowBuffer (obj) {
 
 var defaults = __webpack_require__(4);
 var utils = __webpack_require__(1);
-var InterceptorManager = __webpack_require__(162);
-var dispatchRequest = __webpack_require__(163);
+var InterceptorManager = __webpack_require__(163);
+var dispatchRequest = __webpack_require__(164);
 
 /**
  * Create a new instance of Axios
@@ -56762,7 +56768,7 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -56952,7 +56958,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56971,7 +56977,7 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57004,7 +57010,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57032,7 +57038,7 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57107,7 +57113,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57167,7 +57173,7 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57242,7 +57248,7 @@ module.exports = (
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57285,7 +57291,7 @@ module.exports = btoa;
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57345,7 +57351,7 @@ module.exports = (
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57404,18 +57410,18 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(1);
-var transformData = __webpack_require__(164);
+var transformData = __webpack_require__(165);
 var isCancel = __webpack_require__(133);
 var defaults = __webpack_require__(4);
-var isAbsoluteURL = __webpack_require__(165);
-var combineURLs = __webpack_require__(166);
+var isAbsoluteURL = __webpack_require__(166);
+var combineURLs = __webpack_require__(167);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -57497,7 +57503,7 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57524,7 +57530,7 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57545,7 +57551,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57566,7 +57572,7 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57630,7 +57636,7 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57664,23 +57670,10 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 170 */,
-/* 171 */,
-/* 172 */,
-/* 173 */,
-/* 174 */,
-/* 175 */,
-/* 176 */,
-/* 177 */
-/***/ (function(module, exports) {
-
-module.exports = {"heading":["Applying for self","Muombaji binafsi"],"heading2":["Applying for someone else","Kumuombea mtu mwingine"],"subheading":["Applicant Details","Muombaji binafsi"],"relation":["Relation","Uhusiano"],"fullname":["Full name (as per passport)","Jina Kamili"],"countrycode":["Country Code","Code ya nchi"],"phonenumber":["Phone number","Simu ya mkononi"],"email":["Email Address","Anuani ya barua Pepe"],"dateofbirth":["Date of Birth","Tarehe ya kuzaliwa"],"gender":["Gender","Jinsia"],"countryofbirth":["Country of Birth","Nchi ya kuzaliwa"],"placeofbirth":["Place of Birth","Mahali pa kuzaliwa"],"nationality":["Nationality","Utaifa"],"doyouhavepassport":["Do you have Tanzanian Passport?","Unayo pasipoti ya Tanzania?"],"fatherfullname":["Father full name (as per passport)","Jina kamili la baba mzazi"],"motherfullname":["Mother full name (as per passport)","Jina kamili la mama mzazi"],"country":["Country","Nchi"],"city":["City","Mahali"],"reason":["I am requesting for citizenship of Tanzania by","Mimi naomba Uraia wa Tanzania kwa"],"parentdetails":["Parent Details","Maelezo ya Mzazi"],"parentdetails2":["Please provide parent's details who is Tanzanian","Maelezo ya mzazi mtanzania"],"fathermother":["Father/Mother","Baba/Mama"],"passportnumber":["Passport Number","Namba ya pasipoti"],"issuingauthority":["Issuing Authority","Mamlaka iliyotoa"],"filenumber":["File number","namba ya faili "],"next":["Next","Endelea"]}
 
 /***/ })
 /******/ ]);
