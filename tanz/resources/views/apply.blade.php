@@ -440,7 +440,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <button class="btn btn-primary lang-block-next">Apply<div class="ripple-container"></div></button>
+                                <button onclick="getPDF()" class="btn btn-primary lang-block-next">Apply<div class="ripple-container"></div></button>
                             </div>
                         </div>
 

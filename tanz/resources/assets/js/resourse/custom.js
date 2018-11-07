@@ -234,6 +234,37 @@ $(document).ready(function() {
           function getPDF(){
             let form = $('.apply-form');
 
+
+            let checkIn = $('input[type=text]');
+            let checkIn2 = $('input[type=email]');
+            let checkDrop =  $('.btn-secondary');
+
+            let validate = true;
+
+            function checkValidate(list){
+              list.each(function(item){
+                let val = '';
+                if($(item).is('input')){
+                  val = $(this).val();
+                  
+                } else {
+                  val = $(item).text().trim();
+                }
+                if(val==''){
+                  validate= false;
+                }
+              });
+            }
+
+            checkValidate(checkIn);
+            checkValidate(checkIn2);
+            checkValidate(checkDrop);
+
+
+            if(validate==false){
+              return false;
+            }
+
             function putHidden(val,name){
               if($('.'+name+'-hidden').length!=0){
                 $('.'+name+'-hidden').val(val);
@@ -282,7 +313,9 @@ $(document).ready(function() {
                 'X-CSRF-TOKEN': token,
               },
             }).done(function(data) {
-              window.open('/uploads/'+data);
+              //window.open();
+              
+              window.location('/uploads/'+data);
             })
           }
 
