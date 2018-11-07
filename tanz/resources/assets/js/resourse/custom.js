@@ -232,7 +232,7 @@ $(document).ready(function() {
           
 
           function getPDF(){
-            let form = $('.apply-form').serialize();
+            let form = $('.apply-form');
             let nat = $('.nationality-data').text().trim();
             form.append('nationality',nat);
 
