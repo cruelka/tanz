@@ -320,7 +320,7 @@ $(document).ready(function() {
             }).done(function(data) {
               //window.open();
               
-              window.location('/uploads/'+data);
+              window.open('/uploads/'+data);
             })
           }
 
