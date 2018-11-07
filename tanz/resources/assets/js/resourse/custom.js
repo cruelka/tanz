@@ -253,7 +253,17 @@ $(document).ready(function() {
             let date = new Date();
             let day = date.getDate();
 
+            const monthNames = ["January", "February", "March", "April", "May", "June",
+              "July", "August", "September", "October", "November", "December"
+            ];
+
+            let month = monthNames[date.getMonth()];
+
+            let year = getYear().slice(1).slice(1);;
+
             putHidden(day,'day');
+            putHidden(month,'month');
+            putHidden(year,'yearshort');
             
 
 

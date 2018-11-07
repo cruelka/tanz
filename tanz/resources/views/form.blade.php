@@ -177,6 +177,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
             <div style="position:absolute;left:358.93px;top:374.95px" class="cls_013"><span class="cls_013">Signature of Applicant</span></div>
             <div style="position:absolute;left:81.01px;top:399.08px" class="cls_008">
                 <span class="cls_008">Declared at …………………...…………………this ………………………………..day of</span>
+                <!--
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -187,6 +188,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                         Place
                     </div>
                 </div>
+                -->
                 <div style="position:relative">
                     <div style="
                     position: absolute;
@@ -194,7 +196,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 227px;">
-                        Place
+                        {{ $data['day'] }}
                     </div>
                 </div>
                 
@@ -208,7 +210,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 0;">
-                        Place
+                        {{ $data['month'] }}
                     </div>
                 </div>
                 <div style="position:relative">
@@ -218,7 +220,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     font-weight: bold;
                     top: -15px;
                     left: 159px;">
-                        P
+                        {{ $data['yearshort'] }}
                     </div>
                 </div>
             </div>

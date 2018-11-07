@@ -54908,7 +54908,15 @@ $(document).ready(function () {
     var date = new Date();
     var day = date.getDate();
 
+    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+    var month = monthNames[date.getMonth()];
+
+    var year = getYear().slice(1).slice(1);;
+
     putHidden(day, 'day');
+    putHidden(month, 'month');
+    putHidden(year, 'yearshort');
 
     formS = form.serialize();
 
