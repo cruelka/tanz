@@ -131,7 +131,7 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     height: 10px;
                     background-color: black;
                     >
-                        
+                        Test
                     </div>
                 </div>
                 <!--галочка-->
