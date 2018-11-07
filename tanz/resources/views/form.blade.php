@@ -125,13 +125,13 @@ div.cls_011{font-family:Times,serif;font-size:8.0px;color:rgb(0,0,0);font-weight
                     position: absolute;
                     text-transform: uppercase;
                     font-weight: bold;
-                    top: -15px;
-                    left: 51px;"
-                    width: 10px;
-                    height: 10px;
+                    top: -30px;
+                    left: 71px;"
                     background-color: black;
                     >
-                        Test
+                        <img src="http://tanzaniansabroad.com/img/checked.png" style="
+                        width: 15px;
+                        ">
                     </div>
                 </div>
                 <!--галочка-->
