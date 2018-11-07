@@ -229,9 +229,10 @@ $(document).ready(function() {
 
           }
 
-          let form = $('.apply-form').serialize();
+          
 
           function getPDF(){
+            let form = $('.apply-form').serialize();
             $.ajax({
               type: 'POST',
               url: '/test',

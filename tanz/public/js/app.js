@@ -54887,9 +54887,8 @@ $(document).ready(function () {
     });
   }
 
-  var form = $('.apply-form').serialize();
-
   function getPDF() {
+    var form = $('.apply-form').serialize();
     $.ajax({
       type: 'POST',
       url: '/test',
