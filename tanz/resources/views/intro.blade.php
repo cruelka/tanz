@@ -21,8 +21,8 @@
       <div class="section text-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="title">Let&apos;s talk product</h2>
-            <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn&apos;t scroll to get here. Add a button if you want the user to see more.</h5>
+            <h2 class="title">About Us</h2>
+            <h5 class="description">Tanzanians Abroad provide sophisticated services and solution to our clients. We seek to provide efficient, secure, highly advanced and innovative services. Drawing from its expertise and knowledge within the services domain, Tanzanians Abroad also delivers a dependable and technologically supported framework for local and international applicant globally through its portfolio of services, aimed at enhancing client experience in Immigration services (Citizenship) with an automated and seamless process.</h5>
           </div>
         </div>
         <div class="features">
@@ -32,17 +32,17 @@
                 <div class="icon icon-info">
                   <i class="material-icons">chat</i>
                 </div>
-                <h4 class="info-title">Free Chat</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                <h4 class="info-title">Friendly</h4>
+                
               </div>
             </div>
             <div class="col-md-4">
               <div class="info">
                 <div class="icon icon-success">
-                  <i class="material-icons">verified_user</i>
+                  <i class="material-icons">Secure</i>
                 </div>
                 <h4 class="info-title">Verified Users</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                
               </div>
             </div>
             <div class="col-md-4">
@@ -50,8 +50,8 @@
                 <div class="icon icon-danger">
                   <i class="material-icons">fingerprint</i>
                 </div>
-                <h4 class="info-title">Fingerprint</h4>
-                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                <h4 class="info-title">Fast</h4>
+               
               </div>
             </div>
           </div>
