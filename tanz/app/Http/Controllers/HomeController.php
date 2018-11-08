@@ -42,7 +42,7 @@ class HomeController extends Controller
     $toDB = json_encode($data);
     $db = new Application();
     $db->user_id = Auth::id();
-    $db->data = $data;
+    $db->data = $toDB;
     $db->stuatus = $name;
     $db->save();
         return $name;
