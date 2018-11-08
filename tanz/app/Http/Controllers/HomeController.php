@@ -44,7 +44,7 @@ class HomeController extends Controller
     $db = new Application();
     $db->user_id = Auth::id();
     $db->data = $toDB;
-    $db->stuatus = $name;
+    $db->status = $name;
     $db->save();
         return $name;
     }
