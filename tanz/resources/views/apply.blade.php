@@ -21,7 +21,7 @@
       <form class="apply-form">
       <div class="container">
           <div class="form-group">
-              <h3 class="label-control lang-block-gender">Select form language</h3>
+              <h3 class="label-control">Select form language</h3>
               <div class="form-check">
                   <label  class="form-check-label">
                     <input class="form-check-input check-passport-input" type="radio" name="lang" id="exampleRadios2" value="en" checked="checked">  
