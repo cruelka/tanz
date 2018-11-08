@@ -46,7 +46,7 @@
               <a href="/apply" class="dropdown-item">
                 <i class="material-icons">layers</i> Applying for self
               </a>
-              <a href="/apply" class="dropdown-item">
+              <a href="/apply2" class="dropdown-item">
                 <i class="material-icons">content_paste</i> Applying for someone else
               </a>
             </div>

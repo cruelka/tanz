@@ -63,6 +63,11 @@ Route::get('/apply', function () {
     return view('apply');
 });
 
+Route::get('/apply2', function () {
+    return view('apply2');
+});
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
