@@ -15,7 +15,14 @@ class CreateApplicationsTable extends Migration
     {
         Schema::create('applications', function (Blueprint $table) {
             $table->increments('id');
+
+            $table->integer('user_id')->unsigned();
+
+            $table->string('status');
+            $table->text('data');
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
         });
     }
 
