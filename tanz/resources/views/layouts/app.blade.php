@@ -57,21 +57,27 @@
             </a>
           </li>
           @guest
+          <li class="nav-item">
             <a class="nav-link" href="/login" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> View applications
+              <i class="material-icons">cloud_download</i> Login
             </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/register" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> View applications
+              <i class="material-icons">cloud_download</i> Register
             </a>
+          </li>
           @else
           <!--
           <a class="nav-link" href="/login" onclick="scrollToDownload()">
             <i class="material-icons">cloud_download</i> {{ Auth::user()->name }}
           </a>
           -->
+          <li class="nav-item">
           <a class="nav-link" href="/logout" onclick="scrollToDownload()">
             <i class="material-icons">cloud_download</i> Logout
           </a>
+          </li>
                     
           @endguest
           
