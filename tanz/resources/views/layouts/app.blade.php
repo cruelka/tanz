@@ -56,6 +56,24 @@
               <i class="material-icons">cloud_download</i> View applications
             </a>
           </li>
+          @guest
+            <a class="nav-link" href="/login" onclick="scrollToDownload()">
+              <i class="material-icons">cloud_download</i> View applications
+            </a>
+            <a class="nav-link" href="/register" onclick="scrollToDownload()">
+              <i class="material-icons">cloud_download</i> View applications
+            </a>
+          @else
+          <!--
+          <a class="nav-link" href="/login" onclick="scrollToDownload()">
+            <i class="material-icons">cloud_download</i> {{ Auth::user()->name }}
+          </a>
+          -->
+          <a class="nav-link" href="/logout" onclick="scrollToDownload()">
+            <i class="material-icons">cloud_download</i> Logout
+          </a>
+                    
+          @endguest
           
         </ul>
       </div>
