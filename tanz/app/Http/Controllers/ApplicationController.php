@@ -14,7 +14,7 @@ class ApplicationController extends Controller
         dd($data);
     }
     public function show(){
-        $data = Application::where('user_id', Auth::id())->paginate(5);
+        $data = Application::where('user_id', Auth::id())->paginate(5)->get();
         return view('applications', compact('data'));
 
     }
