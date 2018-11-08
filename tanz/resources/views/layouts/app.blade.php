@@ -59,12 +59,12 @@
           @guest
           <li class="nav-item">
             <a class="nav-link" href="/login" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Login
+              <i class="material-icons">trending_flat</i> Login
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/register" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Register
+              <i class="material-icons">power_settings_new</i> Register
             </a>
           </li>
           @else
@@ -75,7 +75,7 @@
           -->
           <li class="nav-item">
           <a class="nav-link" href="/logout" onclick="scrollToDownload()">
-            <i class="material-icons">cloud_download</i> Logout
+            <i class="material-icons">undo</i> Logout
           </a>
           </li>
                     
