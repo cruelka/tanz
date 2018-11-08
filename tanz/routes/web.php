@@ -60,12 +60,12 @@ Route::get('/template', function () {
 });
 
 Route::get('/apply', function () {
-    return view('apply');
+    return view('apply')->middleware('auth');;
 });
 
 Route::get('/apply2', function () {
     return view('apply2');
-});
+})->middleware('auth');;
 
 
 Auth::routes();
