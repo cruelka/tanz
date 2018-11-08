@@ -25,7 +25,7 @@
             <div class="card card-nav-tabs">
                 @foreach($data as $row)
                     {{$row->status}}
-                    {{$row->data}}
+                    {{$row->data->name}}
                     @endforeach
                     <div class="card-body ">
                       <div class="tab-content text-center">
