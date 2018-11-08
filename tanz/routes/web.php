@@ -70,7 +70,7 @@ Route::get('/testhtml', function () {
     return view('form');
 });
 
-Route::get('/applications', 'ApplicationController@store');
+Route::get('/applications', 'ApplicationController@show');
 
 Route::group([ 'middleware'=>'auth'], function() {
     Route::get('/apply', function () {
