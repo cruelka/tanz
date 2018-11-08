@@ -59,13 +59,7 @@ Route::get('/template', function () {
     return view('template');
 });
 
-Route::get('/apply', function () {
-    return view('apply')->middleware('auth');;
-});
 
-Route::get('/apply2', function () {
-    return view('apply2');
-})->middleware('auth');;
 
 
 Auth::routes();
@@ -79,3 +73,11 @@ Route::get('/testhtml', function () {
 Route::get('/applications', function () {
     return view('applications');
 });
+Route::group([ 'middleware'=>'auth'], function() {
+    Route::get('/apply', function () {
+        return view('apply');
+    });
+
+    Route::get('/apply2', function () {
+        return view('apply2');
+    });});
