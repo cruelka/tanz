@@ -23,10 +23,10 @@
             </div>
             
             <div class="card card-nav-tabs">
-                @foreach($data as $row)
-                    {{$row->status}}
-                    {{$row->data->fullname}}
-                    @endforeach
+                  @foreach($data as $row)
+                    
+                    
+                   
                     <div class="card-body ">
                       <div class="tab-content text-center">
                         <div class="tab-pane active show" id="settings">
@@ -39,12 +39,14 @@
                                           <b>Success</b> This application confirmed
                                         </div>
                                       </div>
-                          <p>ID 3627911209</p>
-                          <button class="btn">Show details<div class="ripple-container"></div></button>
+                          <p>ID {{$row->data->fullname}}</p>
+                          <a href="https://tanzaniansabroad.com/uploads/{{$row->status}}" class="btn">Open PDF<div class="ripple-container"></div></a>
 
                         </div>
                       </div>
                     </div>
+                    @endforeach
+
                   </div>
 
                   
