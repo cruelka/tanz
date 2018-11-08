@@ -23,7 +23,10 @@
             </div>
             
             <div class="card card-nav-tabs">
-              {{$data}}
+                @foreach($data as $row)
+                    {{$row->status}}
+                    {{$row->data}}
+                    @endforeach
                     <div class="card-body ">
                       <div class="tab-content text-center">
                         <div class="tab-pane active show" id="settings">
