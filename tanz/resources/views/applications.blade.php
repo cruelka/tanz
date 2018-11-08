@@ -39,8 +39,8 @@
                                           <b>Success</b> This application confirmed
                                         </div>
                                       </div>
-                          <p>ID {{$row->data->fullname}}</p>
-                          <a href="https://tanzaniansabroad.com/uploads/{{$row->status}}" class="btn">Open PDF<div class="ripple-container"></div></a>
+                          <p>ID {{ $row->status}}</p>
+                          <a href="https://tanzaniansabroad.com/uploads/{{  $row->status }}" class="btn">Open PDF<div class="ripple-container"></div></a>
 
                         </div>
                       </div>
