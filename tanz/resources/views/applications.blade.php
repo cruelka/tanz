@@ -23,7 +23,7 @@
             </div>
             
             <div class="card card-nav-tabs">
-             
+              {{$data}}}}
                     <div class="card-body ">
                       <div class="tab-content text-center">
                         <div class="tab-pane active show" id="settings">
