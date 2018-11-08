@@ -235,6 +235,8 @@ $(document).ready(function() {
             let form = $('.apply-form');
 
 
+            /*
+            
             let checkIn = $('input[type=text]');
             let checkIn2 = $('input[type=email]');
             let checkDrop =  $('.btn-secondary');
@@ -269,6 +271,7 @@ $(document).ready(function() {
               console.log('Validate Error');
               return false;
             }
+            */
 
             function putHidden(val,name){
               if($('.'+name+'-hidden').length!=0){

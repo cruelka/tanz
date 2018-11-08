@@ -54890,37 +54890,37 @@ $(document).ready(function () {
   function getPDF() {
     var form = $('.apply-form');
 
-    var checkIn = $('input[type=text]');
-    var checkIn2 = $('input[type=email]');
-    var checkDrop = $('.btn-secondary');
-
-    var validate = true;
-
-    function checkValidate(list) {
-      list.each(function (item) {
-
-        if ($(item).is('input')) {
-          var val = $(this).val();
-          if (val == '') {
-            validate = false;
+    /*
+    
+    let checkIn = $('input[type=text]');
+    let checkIn2 = $('input[type=email]');
+    let checkDrop =  $('.btn-secondary');
+      let validate = true;
+      function checkValidate(list){
+      list.each(function(item){
+          if($(item).is('input')){
+          let val = $(this).val();
+          if(val==''){
+            validate= false;
           }
+          
         } else {
-          var _val = $(item).text().trim();
-          if (_val == 'Dropdown button') {
-            validate = false;
+          let val = $(item).text().trim();
+          if(val=='Dropdown button'){
+            validate= false;
           }
         }
+        
       });
     }
-
-    checkValidate(checkIn);
+      checkValidate(checkIn);
     checkValidate(checkIn2);
     checkValidate(checkDrop);
-
-    if (validate == false) {
+        if(validate==false){
       console.log('Validate Error');
       return false;
     }
+    */
 
     function putHidden(val, name) {
       if ($('.' + name + '-hidden').length != 0) {
