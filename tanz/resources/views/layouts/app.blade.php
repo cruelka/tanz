@@ -84,7 +84,7 @@
                 <script>
                   document.write(new Date().getFullYear())
                 </script>
-                <a href="https://www.creative-tim.com" target="_blank"></a> .
+                <a  target="_blank"></a> Tanzanian Abroad.
               </div>
             </div>
           </footer>
