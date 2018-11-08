@@ -18,7 +18,6 @@ class ApplicationController extends Controller
         foreach($data as $val){
             $val->data = json_decode( $val->data );
         }
-        dd($data);
         return view('applications', compact('data'));
 
     }
