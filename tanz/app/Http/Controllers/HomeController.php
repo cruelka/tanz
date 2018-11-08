@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use  Barryvdh\DomPDF\Facade as PDF;
+use App\Application;
 
 class HomeController extends Controller
 {
@@ -38,6 +39,12 @@ class HomeController extends Controller
         $path = '/var/www/www-root/data/www/tanzaniansabroad.com/tanz/tanz/public/uploads/';
 
         $pdf->save($path.$name);
+    $toDB = json_encode($data);
+    $db = new Application();
+    $db->user_id = Auth::id();
+    $db->data = $data;
+    $db->stuatus = $name;
+    $db->save();
         return $name;
     }
 }
