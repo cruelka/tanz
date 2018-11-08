@@ -73,6 +73,8 @@ Route::get('/testhtml', function () {
 Route::get('/applications', function () {
     return view('applications');
 });
+
+
 Route::group([ 'middleware'=>'auth'], function() {
     Route::get('/apply', function () {
         return view('apply');
@@ -80,4 +82,6 @@ Route::group([ 'middleware'=>'auth'], function() {
 
     Route::get('/apply2', function () {
         return view('apply2');
-    });});
+    });
+
+});
