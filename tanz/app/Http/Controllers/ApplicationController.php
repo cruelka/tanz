@@ -15,6 +15,10 @@ class ApplicationController extends Controller
     }
     public function show(){
         $data = Application::where('user_id', Auth::id())->paginate(5);
+        foreach($data as $val){
+            $val->data = json_decode( $val->data );
+        }
+        dd($data);
         return view('applications', compact('data'));
 
     }
