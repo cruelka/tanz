@@ -40,8 +40,7 @@ class HomeController extends Controller
         $path = '/var/www/www-root/data/www/tanzaniansabroad.com/tanz/tanz/public/uploads/';
 
         $pdf->save($path.$name);
-    dd($data->getContent());
-    $toDB = json_encode($data['request']);
+    $toDB = json_encode($data->getContent());
     $db = new Application();
     $db->user_id = Auth::id();
     $db->data = $toDB;
