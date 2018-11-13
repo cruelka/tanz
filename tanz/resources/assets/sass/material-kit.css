@@ -17925,3 +17925,7 @@
   .passport-description_none {
     display: none;
   }
+
+  .btn.has-danger {
+    border: 1px solid #f76f65;
+  }
