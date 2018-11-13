@@ -217,9 +217,37 @@
 
                                           </div>
 
+                                          <div class="col-md-5">
+                                            <div class="form-group">
+                                                    <label class="label-control lang-block-country">Country</label>
+                                                    <div class="dropdown country-of-birth" data="3">
+                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                              Dropdown button
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                                            </div>
+                                                          </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-md-5">
+                                                <div class="form-group">
+                                                        <label class="label-control lang-block-city">City</label>
+                                                        <div class="dropdown city-of-birth city-of-birth-3">
+                                                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                  Dropdown button
+                                                                </button>
+                                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                                                </div>
+                                                              </div>
+                                                </div>
+                                            </div>
+
                                           
 
-                                                <div class="col-md-4">
+                                                <div class="col-md-3">
 
                                                        
 
@@ -238,7 +266,7 @@
           
                                                 </div>
 
-                                                <div class="col-md-6">
+                                                <div class="col-md-5">
                                                   
                                                             <div class="form-group bmd-form-group">
                                                                 <label for="exampleInput1" class="bmd-label-floating lang-block-phonenumber">Mobile number</label>
@@ -246,40 +274,14 @@
                                                               </div>
                                                 </div>
 
-                                                          <div class="col-md-6">
+                                                          <div class="col-md-4">
                                                               <div class="form-group bmd-form-group">
                                                                   <label for="exampleInput1" class="bmd-label-floating lang-block-email">E-Mail</label>
                                                                   <input name="email" type="email" class="form-control" id="exampleInput1">
                                                                 </div>
                                                               </div>
 
-                                                              <div class="col-md-3">
-                                                                  <div class="form-group">
-                                                                          <label class="label-control lang-block-country">Country</label>
-                                                                          <div class="dropdown country-of-birth" data="3">
-                                                                                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                                    Dropdown button
-                                                                                  </button>
-                                                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                                                                  </div>
-                                                                                </div>
-                                                                  </div>
-                                                              </div>
-                                  
-                                                              <div class="col-md-3">
-                                                                      <div class="form-group">
-                                                                              <label class="label-control lang-block-city">City</label>
-                                                                              <div class="dropdown city-of-birth city-of-birth-3">
-                                                                                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                                        Dropdown button
-                                                                                      </button>
-                                                                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                                                                      </div>
-                                                                                    </div>
-                                                                      </div>
-                                                                  </div>
+                                                            
 
                                                               <div class="col-md-4">
                                                                 <div class="form-group">

@@ -74,7 +74,7 @@ class RegisterController extends Controller
     public function confirmEmail(Request $request, $token)
     {
         User::whereToken($token)->firstOrFail()->confirmEmail();
-        $request->session()->flash('message', 'Учетная запись подтверждена. Войдите под своим именем.');
+        $request->session()->flash('message', 'Confirmed. Login with your E-Mail.');
         return redirect('login');
     }
     public function register(Request $request)
@@ -84,7 +84,7 @@ class RegisterController extends Controller
         $user = $this->create($request->all());
 
         Mail::to($user)->send(new UserRegistered($user));
-        $request->session()->flash('message', 'На ваш адрес было выслано письмо с подтверждением регистрации.');
+        $request->session()->flash('message', 'Please confirm your E-Mail address');
         return back();
     }
 }

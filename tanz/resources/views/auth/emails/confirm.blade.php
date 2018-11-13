@@ -2,13 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Активация регистрации нового ползователя</title>
+    <title>Activation new user account</title>
 </head>
 <body>
-<h1>Спасибо за регистрацию, {{$user->name}}!</h1>
+<h1>Thanks for register on tanzaniansabroad.com, {{$user->name}}!</h1>
 
 <p>
-    Перейдите <a href='{{ url("register/confirm/{$user->token}") }}'>по ссылке </a>чтобы завершить регистрацию!
+    Please follow <a href='{{ url("register/confirm/{$user->token}") }}'>the link </a>.
 </p>
 </body>
 </html>
