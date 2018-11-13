@@ -252,7 +252,7 @@ $(document).ready(function() {
                   let val = $(this).val();
                   console.log('Iteration value: <<'+val+'>>');
                   if(val==''){
-                    validate= false;
+                    validate = false;
                   }
                   
                 } else {
@@ -271,6 +271,7 @@ $(document).ready(function() {
             checkValidate(checkIn2);
             //checkValidate(checkDrop);
 
+            console.log('Validate Statement: <<'+validate+'>>');
 
             if(validate==false){
               console.log('Validate Error');

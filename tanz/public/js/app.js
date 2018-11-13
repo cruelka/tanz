@@ -58540,6 +58540,7 @@ $(document).ready(function () {
     checkValidate(checkIn2);
     //checkValidate(checkDrop);
 
+    console.log('Validate Statement: <<' + validate + '>>');
 
     if (validate == false) {
       console.log('Validate Error');
