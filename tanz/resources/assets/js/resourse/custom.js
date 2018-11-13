@@ -253,7 +253,7 @@ $(document).ready(function() {
                   
 
                   if($(item).hasClass('required-input')){
-                    let val = $(this).val();
+                    let val = $(this).val().trim();
 
                     
                     if(val==''){
@@ -262,23 +262,21 @@ $(document).ready(function() {
                     } else {
                       $(this).parent().removeClass('has-danger');
                     }
-                    
-
-                    
 
                   }
-                  
 
-
+                } 
+                
+                if($(item).is('button')){ 
                   
-                  
-                } else {
-                  /*
                   let val = $(item).text().trim();
                   if(val=='Dropdown button'){
+                    $(this).addClass('has-danger');
                     validate= false;
+                  } else {
+                    $(this).removeClass('has-danger');
                   }
-                  */
+                  
                 }
                 
               });

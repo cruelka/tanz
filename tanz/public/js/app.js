@@ -58523,7 +58523,7 @@ $(document).ready(function () {
         if ($(item).is('input')) {
 
           if ($(item).hasClass('required-input')) {
-            var val = $(this).val();
+            var val = $(this).val().trim();
 
             if (val == '') {
               $(this).parent().addClass('has-danger');
@@ -58532,13 +58532,17 @@ $(document).ready(function () {
               $(this).parent().removeClass('has-danger');
             }
           }
-        } else {
-          /*
-          let val = $(item).text().trim();
-          if(val=='Dropdown button'){
-            validate= false;
+        }
+
+        if ($(item).is('button')) {
+
+          var _val = $(item).text().trim();
+          if (_val == 'Dropdown button') {
+            $(this).addClass('has-danger');
+            validate = false;
+          } else {
+            $(this).removeClass('has-danger');
           }
-          */
         }
       });
     }
