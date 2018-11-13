@@ -424,10 +424,12 @@
 
                         <div class="col-md-4">
                             <div class="form-group bmd-form-group is-filled">
-                                <label class="label-control lang-block-issuingauthority"> The file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written.</label>
+                                
                                
                                 <label for="exampleInput1" class="bmd-label-floating lang-block-filenumber">File number</label>
                                 <input name="filenumber" class="file-number form-control" type="text" id="exampleInput1">
+                              
+                                <p> The file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written.</p>
                               </div>
                             
                           </div>
