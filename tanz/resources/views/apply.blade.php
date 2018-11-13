@@ -77,7 +77,7 @@
                 <div class="col-md-6">
                   <div class="form-group bmd-form-group">
                     <label for="exampleInput1" class="bmd-label-floating lang-block-fullname">Full name (as per passport)</label>
-                    <input type="text" name="fullname" class="form-control" id="exampleInput1">
+                    <input type="text" name="fullname" class="form-control required-input" id="exampleInput1">
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@
                 <div class="col-md-6">
                     <div class="form-group">
                             <label class="label-control lang-block-dateofbirth">Date of Birth</label>
-                            <input name="dateofbirth" type="text" class="form-control datetimepicker" value="01/01/1990">
+                            <input name="dateofbirth" type="text" class="form-control datetimepicker required-input" value="01/01/1990">
                     </div>
                 </div>
 
@@ -143,7 +143,7 @@
                     <div class="col-md-5 ">
                         <div class="form-group bmd-form-group passport-description passport-description_none">
                             <label for="exampleInput1" class="bmd-label-floating lang-block-passportnumber">Passport number</label>
-                            <input name="passportnumber" type="email" class="form-control" id="exampleInput1">
+                            <input name="passportnumber" type="email" class="form-control passport-number-input" id="exampleInput1">
                           </div>
                     </div>
                 
@@ -198,21 +198,21 @@
                                         
                                         <div class="form-group bmd-form-group">
                                           <label for="exampleInput1" class="bmd-label-floating lang-block-fatherfullname">Father full name (as per passport)</label>
-                                          <input name="fathername" type="text" class="form-control" id="exampleInput1">
+                                          <input name="fathername" type="text" class="form-control required-input" id="exampleInput1">
                                         </div>
                                       </div>
 
                                       <div class="col-md-6">
                                           <div class="form-group bmd-form-group">
                                               <label for="exampleInput1" class="bmd-label-floating lang-block-motherfullname">Mother full name (as per passport)</label>
-                                              <input name="mothername" type="text" class="form-control" id="exampleInput1">
+                                              <input name="mothername" type="text" class="form-control required-input" id="exampleInput1">
                                             </div>
                                           </div>
 
                                           <div class="col-md-2">
                                               <div class="form-group bmd-form-group">
                                                   <label for="exampleInput1" class="bmd-label-floating">P.O. Box</label>
-                                                  <input name="pobox" type="text" class="form-control" id="exampleInput1">
+                                                  <input name="pobox" type="text" class="form-control required-input" id="exampleInput1">
                                                 </div>
 
                                           </div>
@@ -270,14 +270,14 @@
                                                   
                                                             <div class="form-group bmd-form-group">
                                                                 <label for="exampleInput1" class="bmd-label-floating lang-block-phonenumber">Mobile number</label>
-                                                                <input name="phone" type="text" class="form-control" id="exampleInput1">
+                                                                <input name="phone" type="text" class="form-control required-input" id="exampleInput1">
                                                               </div>
                                                 </div>
 
                                                           <div class="col-md-4">
                                                               <div class="form-group bmd-form-group">
                                                                   <label for="exampleInput1" class="bmd-label-floating lang-block-email">E-Mail</label>
-                                                                  <input name="email" type="email" class="form-control" id="exampleInput1">
+                                                                  <input name="email" type="email" class="form-control required-input" id="exampleInput1">
                                                                 </div>
                                                               </div>
 
@@ -334,7 +334,7 @@
                       <label class="label-control lang-block-fathermother">Father/Mother</label>
                       <div class="form-check">
                           <label  class="form-check-label">
-                            <input class="form-check-input check-passport-input" type="radio" name="fathermother" id="exampleRadios2" value="Male" checked="">  
+                            <input class="form-check-input check-passport-input " type="radio" name="fathermother" id="exampleRadios2" value="Male" checked="">  
                             Father
 
                             <span class="circle">
@@ -358,8 +358,8 @@
                 
                 <div class="col-md-6">
                     <div class="form-group bmd-form-group">
-                        <label for="exampleInput1" class="bmd-label-floating lang-block-fullname">Full name (as per passport)</label>
-                        <input type="text" name="parentname" class="form-control" id="exampleInput1">
+                        <label for="exampleInput1" class="bmd-label-floating lang-block-fullname ">Full name (as per passport)</label>
+                        <input type="text" name="parentname" class="form-control required-input" id="exampleInput1">
                       </div>
                   </div>
 
@@ -393,7 +393,7 @@
                       <div class="col-md-4">
                           <div class="form-group">
                                   <label class="label-control lang-block-dateofbirth">Date of Birth</label>
-                                  <input type="text" name="parentdateofbirth" class="form-control datetimepicker" value="01/01/1980">
+                                  <input type="text" name="parentdateofbirth" class="form-control datetimepicker required-input" value="01/01/1980">
                           </div>
                       </div>
 
@@ -401,7 +401,7 @@
                           
                           <div class="form-group bmd-form-group">
                               <label for="exampleInput1" class="bmd-label-floating lang-block-passportnumber">Passport number</label>
-                              <input type="text" name="parentpassportnumber" class="form-control" id="exampleInput1">
+                              <input type="text" name="parentpassportnumber" class="form-control required-input" id="exampleInput1">
                             </div>
                         </div>
 
@@ -427,7 +427,7 @@
                                 
                                
                                 <label for="exampleInput1" class="bmd-label-floating lang-block-filenumber">File number</label>
-                                <input name="filenumber" class="file-number form-control" type="text" id="exampleInput1">
+                                <input name="filenumber" class="file-number form-control required-input" type="text" id="exampleInput1">
                               
                                 <p> The file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written.</p>
                               </div>

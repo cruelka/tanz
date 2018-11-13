@@ -250,11 +250,27 @@ $(document).ready(function() {
                 console.log(item);
 
                 if($(item).is('input')){
-                  let val = $(this).val();
-                  console.log('Iteration value: <<'+val+'>>');
-                  if(val==''){
-                    validate = false;
+                  
+
+                  if($(item).hasClass('required-input')){
+                    let val = $(this).val();
+
+                    
+                    if(val==''){
+                      $(this).parent().addClass('has-danger');
+                      validate = false;
+                    } else {
+                      $(this).parent().removeClass('has-danger');
+                    }
+                    
+
+                    
+
                   }
+                  
+
+
+                  
                   
                 } else {
                   /*
