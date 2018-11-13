@@ -30121,7 +30121,7 @@ window.Popper = __webpack_require__(139);
 window.moment = __webpack_require__(0);
 
 window.noUiSlider = __webpack_require__(141);
-window.noUiSlider = __webpack_require__(142);
+__webpack_require__(142);
 
 __webpack_require__(143);
 
