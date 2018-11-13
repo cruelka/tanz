@@ -235,7 +235,9 @@ $(document).ready(function() {
             let form = $('.apply-form');
 
 
-            
+            //Validation form
+
+            console.log('Start of validation');
             
             let checkIn = $('input[type=text]');
             let checkIn2 = $('input[type=email]');
@@ -270,7 +272,11 @@ $(document).ready(function() {
             if(validate==false){
               console.log('Validate Error');
               return false;
+            } else {
+              console.log('No error');
             }
+
+            //End validation
             
 
             function putHidden(val,name){

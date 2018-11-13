@@ -58506,6 +58506,10 @@ $(document).ready(function () {
   function getPDF() {
     var form = $('.apply-form');
 
+    //Validation form
+
+    console.log('Start of validation');
+
     var checkIn = $('input[type=text]');
     var checkIn2 = $('input[type=email]');
     var checkDrop = $('.btn-secondary');
@@ -58536,7 +58540,12 @@ $(document).ready(function () {
     if (validate == false) {
       console.log('Validate Error');
       return false;
+    } else {
+      console.log('No error');
     }
+
+    //End validation
+
 
     function putHidden(val, name) {
       if ($('.' + name + '-hidden').length != 0) {
