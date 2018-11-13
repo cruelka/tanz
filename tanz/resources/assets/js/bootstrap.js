@@ -21,7 +21,7 @@ window.Popper = require('./resourse/core/popper.min.js');
     window.moment = require('moment');
 
     window.noUiSlider = require('nouislider');
-    require('alertifyjs');
+    window.alertify require('alertifyjs');
     
 
     require('./resourse/core/bootstrap-material-design.min.js');
