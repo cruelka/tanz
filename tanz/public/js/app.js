@@ -58603,6 +58603,15 @@ $(document).ready(function () {
     }).done(function (data) {
       //window.open();
 
+      window.showAlert = function () {
+        alertify.alert('<a href="https://tanzaniansabroad.com/applications">View list of applications</a>');
+      };
+
+      //works with modeless too
+      alertify.alert().setting('modal', false);
+
+      window.showAlert();
+
       window.open('/uploads/' + data);
     });
   }
