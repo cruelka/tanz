@@ -19,6 +19,7 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "alertifyjs": "^1.11.2",
         "country-telephone-data": "^0.6.0",
         "moment": "^2.22.2",
         "nouislider": "^12.1.0",
