@@ -58521,21 +58521,25 @@ $(document).ready(function () {
 
         if ($(item).is('input')) {
           var val = $(this).val();
+          console.log('Iteration value: <<' + val + '>>');
           if (val == '') {
             validate = false;
           }
         } else {
-          var _val = $(item).text().trim();
-          if (_val == 'Dropdown button') {
-            validate = false;
+          /*
+          let val = $(item).text().trim();
+          if(val=='Dropdown button'){
+            validate= false;
           }
+          */
         }
       });
     }
 
     checkValidate(checkIn);
     checkValidate(checkIn2);
-    checkValidate(checkDrop);
+    //checkValidate(checkDrop);
+
 
     if (validate == false) {
       console.log('Validate Error');

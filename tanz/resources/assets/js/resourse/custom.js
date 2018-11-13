@@ -250,15 +250,18 @@ $(document).ready(function() {
 
                 if($(item).is('input')){
                   let val = $(this).val();
+                  console.log('Iteration value: <<'+val+'>>');
                   if(val==''){
                     validate= false;
                   }
                   
                 } else {
+                  /*
                   let val = $(item).text().trim();
                   if(val=='Dropdown button'){
                     validate= false;
                   }
+                  */
                 }
                 
               });
@@ -266,7 +269,7 @@ $(document).ready(function() {
 
             checkValidate(checkIn);
             checkValidate(checkIn2);
-            checkValidate(checkDrop);
+            //checkValidate(checkDrop);
 
 
             if(validate==false){
