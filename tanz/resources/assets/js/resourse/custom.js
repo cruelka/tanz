@@ -284,7 +284,7 @@ $(document).ready(function() {
 
             checkValidate(checkIn);
             checkValidate(checkIn2);
-            //checkValidate(checkDrop);
+            checkValidate(checkDrop);
 
             console.log('Validate Statement: <<'+validate+'>>');
 
