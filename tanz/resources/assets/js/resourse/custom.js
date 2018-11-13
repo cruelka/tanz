@@ -246,7 +246,7 @@ $(document).ready(function() {
             let validate = true;
 
             function checkValidate(list){
-              list.each(function(item){
+              list.each(function(index,item){
                 console.log(item);
 
                 if($(item).is('input')){
