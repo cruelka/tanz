@@ -58518,6 +58518,7 @@ $(document).ready(function () {
 
     function checkValidate(list) {
       list.each(function (item) {
+        console.log(item);
 
         if ($(item).is('input')) {
           var val = $(this).val();
