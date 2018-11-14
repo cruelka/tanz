@@ -7,7 +7,7 @@
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
             <h1>Tanzanians abroad</h1>
-            <h3>Applying for self</h3>
+            <h3>Applications</h3>
           </div>
         </div>
       </div>
