@@ -22,9 +22,9 @@
                 <h2>Applications List</h2>
             </div>
             
-            <div class="card card-nav-tabs">
+            
                   @foreach($data as $row)
-                    
+                  <div class="card card-nav-tabs"> 
                     
                    
                     <div class="card-body ">
@@ -36,7 +36,7 @@
                                           <div class="alert-icon">
                                             <i class="material-icons">check</i>
                                           </div>
-                                          <b>Success</b> This application confirmed
+                                          <b>Status:</b> Waiting
                                         </div>
                                       </div>
                           <p>ID: {{ $row->status}}</p>
@@ -49,9 +49,10 @@
                         </div>
                       </div>
                     </div>
+                  </div>
                     @endforeach
 
-                  </div>
+                  
 
                   
             
