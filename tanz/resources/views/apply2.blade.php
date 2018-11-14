@@ -43,24 +43,25 @@
                       </label>
                     </div>
       </div>
+      <div class="form-group">
+        <label class="label-control lang-block-relation" >Relation</label>
+        <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-item" onclick="swapDropDown(this,'Father/Baba')">Father/Baba</div>
+                    <div class="dropdown-item" onclick="swapDropDown(this,'Mother/Mama')">Mother/Mama</div>
+                    <div class="dropdown-item" onclick="swapDropDown(this,'Sister/Dada')">Sister/Dada</div>
+                    <div class="dropdown-item" onclick="swapDropDown(this,'Brother/Kaka')">Brother/Kaka</div>
+                    <div class="dropdown-item" onclick="swapDropDown(this,'Son/Mwana')">Son/Mwana</div>
+                    <div class="dropdown-item" onclick="swapDropDown(this,'Doughter/Binti')">Doughter/Binti</div>
+                </div>
+              </div>
+      </div>
       <div class="col-md-4">
 
-        <div class="form-group">
-            <label class="label-control lang-block-relation" >Relation</label>
-            <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown Menu
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <div class="dropdown-item" onclick="swapDropDown(this,'Father/Baba')">Father/Baba</div>
-                        <div class="dropdown-item" onclick="swapDropDown(this,'Mother/Mama')">Mother/Mama</div>
-                        <div class="dropdown-item" onclick="swapDropDown(this,'Sister/Dada')">Sister/Dada</div>
-                        <div class="dropdown-item" onclick="swapDropDown(this,'Brother/Kaka')">Brother/Kaka</div>
-                        <div class="dropdown-item" onclick="swapDropDown(this,'Son/Mwana')">Son/Mwana</div>
-                        <div class="dropdown-item" onclick="swapDropDown(this,'Doughter/Binti')">Doughter/Binti</div>
-                    </div>
-                  </div>
-    </div>
+        
       
   </div>
             <div class="title">
