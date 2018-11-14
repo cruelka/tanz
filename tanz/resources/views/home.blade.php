@@ -7,7 +7,7 @@
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
             <h1>Tanzanians abroad</h1>
-            <h3>Applications</h3>
+            <h3>Applying for self</h3>
           </div>
         </div>
       </div>
@@ -22,11 +22,8 @@
                 <h2>Applications List</h2>
             </div>
             
-            
-                  @foreach($data as $row)
-                  <div class="card card-nav-tabs"> 
-                    
-                   
+            <div class="card card-nav-tabs">
+             
                     <div class="card-body ">
                       <div class="tab-content text-center">
                         <div class="tab-pane active show" id="settings">
@@ -36,23 +33,16 @@
                                           <div class="alert-icon">
                                             <i class="material-icons">check</i>
                                           </div>
-                                          <b>Status:</b> Waiting
+                                          <b>Success</b> This application confirmed
                                         </div>
                                       </div>
-                          <p>ID: {{ $row->status}}</p>
-                          <p>Name of applicant: {{ $row->data->fullname }}</p>
-                          <p>{{ $row->created_at }}</p>
-                          
-                          
-                          <a href="https://tanzaniansabroad.com/uploads/{{  $row->status }}" class="btn">Open PDF<div class="ripple-container"></div></a>
+                          <p>ID 3627911209</p>
+                          <button class="btn">Show details<div class="ripple-container"></div></button>
 
                         </div>
                       </div>
                     </div>
                   </div>
-                    @endforeach
-
-                  
 
                   
             
