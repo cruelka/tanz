@@ -8,7 +8,7 @@
       <div class="col-md-8 ml-auto mr-auto">
         <div class="brand">
           <h1>Tanzanians abroad</h1>
-          <h3 class="lang-block-heading">Applying for someone else</h3>
+          <h3 class="lang-block-heading">Applying for self</h3>
         </div>
       </div>
     </div>
@@ -43,31 +43,32 @@
                       </label>
                     </div>
       </div>
+      <div class="col-md-4">
+
+        <div class="form-group">
+            <label class="label-control lang-block-relation" >Relation</label>
+            <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item" onclick="swapDropDown(this,'Father/Baba')">Father/Baba</div>
+                        <div class="dropdown-item" onclick="swapDropDown(this,'Mother/Mama')">Mother/Mama</div>
+                        <div class="dropdown-item" onclick="swapDropDown(this,'Sister/Dada')">Sister/Dada</div>
+                        <div class="dropdown-item" onclick="swapDropDown(this,'Brother/Kaka')">Brother/Kaka</div>
+                        <div class="dropdown-item" onclick="swapDropDown(this,'Son/Mwana')">Son/Mwana</div>
+                        <div class="dropdown-item" onclick="swapDropDown(this,'Doughter/Binti')">Doughter/Binti</div>
+                    </div>
+                  </div>
+    </div>
+      
+  </div>
             <div class="title">
                 <h2 class="lang-block-subheading">Applicant Details</h2>
             </div>
-            <!--
-            <div class="col-md-4">
-
-                <div class="form-group">
-                    <label class="label-control lang-block-relation" >Relation</label>
-                    <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown Menu
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <div class="dropdown-item" onclick="swapDropDown(this,'Father/Baba')">Father/Baba</div>
-                                <div class="dropdown-item" onclick="swapDropDown(this,'Mother/Mama')">Mother/Mama</div>
-                                <div class="dropdown-item" onclick="swapDropDown(this,'Sister/Dada')">Sister/Dada</div>
-                                <div class="dropdown-item" onclick="swapDropDown(this,'Brother/Kaka')">Brother/Kaka</div>
-                                <div class="dropdown-item" onclick="swapDropDown(this,'Son/Mwana')">Son/Mwana</div>
-                                <div class="dropdown-item" onclick="swapDropDown(this,'Doughter/Binti')">Doughter/Binti</div>
-                            </div>
-                          </div>
-            </div>
-              
-          </div>
-        -->
+            
+            
+        
 
             
             <!--                 inputs -->
@@ -77,7 +78,7 @@
                 <div class="col-md-6">
                   <div class="form-group bmd-form-group">
                     <label for="exampleInput1" class="bmd-label-floating lang-block-fullname">Full name (as per passport)</label>
-                    <input type="text" name="fullname" class="form-control" id="exampleInput1">
+                    <input type="text" name="fullname" class="form-control required-input" id="exampleInput1">
                   </div>
                 </div>
 
@@ -85,7 +86,7 @@
                 <div class="col-md-6">
                     <div class="form-group">
                             <label class="label-control lang-block-dateofbirth">Date of Birth</label>
-                            <input name="dateofbirth" type="text" class="form-control datetimepicker" value="01/01/1990">
+                            <input name="dateofbirth" type="text" class="form-control datetimepicker required-input" value="01/01/1990">
                     </div>
                 </div>
 
@@ -143,7 +144,7 @@
                     <div class="col-md-5 ">
                         <div class="form-group bmd-form-group passport-description passport-description_none">
                             <label for="exampleInput1" class="bmd-label-floating lang-block-passportnumber">Passport number</label>
-                            <input name="passportnumber" type="email" class="form-control" id="exampleInput1">
+                            <input name="passportnumber" type="email" class="form-control passport-number-input" id="exampleInput1">
                           </div>
                     </div>
                 
@@ -198,28 +199,56 @@
                                         
                                         <div class="form-group bmd-form-group">
                                           <label for="exampleInput1" class="bmd-label-floating lang-block-fatherfullname">Father full name (as per passport)</label>
-                                          <input name="fathername" type="text" class="form-control" id="exampleInput1">
+                                          <input name="fathername" type="text" class="form-control required-input" id="exampleInput1">
                                         </div>
                                       </div>
 
                                       <div class="col-md-6">
                                           <div class="form-group bmd-form-group">
                                               <label for="exampleInput1" class="bmd-label-floating lang-block-motherfullname">Mother full name (as per passport)</label>
-                                              <input name="mothername" type="text" class="form-control" id="exampleInput1">
+                                              <input name="mothername" type="text" class="form-control required-input" id="exampleInput1">
                                             </div>
                                           </div>
 
                                           <div class="col-md-2">
                                               <div class="form-group bmd-form-group">
                                                   <label for="exampleInput1" class="bmd-label-floating">P.O. Box</label>
-                                                  <input name="pobox" type="text" class="form-control" id="exampleInput1">
+                                                  <input name="pobox" type="text" class="form-control required-input" id="exampleInput1">
                                                 </div>
 
                                           </div>
 
+                                          <div class="col-md-5">
+                                            <div class="form-group">
+                                                    <label class="label-control lang-block-country">Country</label>
+                                                    <div class="dropdown country-of-birth" data="3">
+                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                              Dropdown button
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                                            </div>
+                                                          </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-md-5">
+                                                <div class="form-group">
+                                                        <label class="label-control lang-block-city">City</label>
+                                                        <div class="dropdown city-of-birth city-of-birth-3">
+                                                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                  Dropdown button
+                                                                </button>
+                                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                                                </div>
+                                                              </div>
+                                                </div>
+                                            </div>
+
                                           
 
-                                                <div class="col-md-4">
+                                                <div class="col-md-3">
 
                                                        
 
@@ -238,48 +267,22 @@
           
                                                 </div>
 
-                                                <div class="col-md-6">
+                                                <div class="col-md-5">
                                                   
                                                             <div class="form-group bmd-form-group">
                                                                 <label for="exampleInput1" class="bmd-label-floating lang-block-phonenumber">Mobile number</label>
-                                                                <input name="phone" type="text" class="form-control" id="exampleInput1">
+                                                                <input name="phone" type="text" class="form-control required-input" id="exampleInput1">
                                                               </div>
                                                 </div>
 
-                                                          <div class="col-md-6">
+                                                          <div class="col-md-4">
                                                               <div class="form-group bmd-form-group">
                                                                   <label for="exampleInput1" class="bmd-label-floating lang-block-email">E-Mail</label>
-                                                                  <input name="email" type="email" class="form-control" id="exampleInput1">
+                                                                  <input name="email" type="email" class="form-control required-input" id="exampleInput1">
                                                                 </div>
                                                               </div>
 
-                                                              <div class="col-md-3">
-                                                                  <div class="form-group">
-                                                                          <label class="label-control lang-block-country">Country</label>
-                                                                          <div class="dropdown country-of-birth" data="3">
-                                                                                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                                    Dropdown button
-                                                                                  </button>
-                                                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                                                                  </div>
-                                                                                </div>
-                                                                  </div>
-                                                              </div>
-                                  
-                                                              <div class="col-md-3">
-                                                                      <div class="form-group">
-                                                                              <label class="label-control lang-block-city">City</label>
-                                                                              <div class="dropdown city-of-birth city-of-birth-3">
-                                                                                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                                        Dropdown button
-                                                                                      </button>
-                                                                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                                                                      </div>
-                                                                                    </div>
-                                                                      </div>
-                                                                  </div>
+                                                            
 
                                                               <div class="col-md-4">
                                                                 <div class="form-group">
@@ -332,7 +335,7 @@
                       <label class="label-control lang-block-fathermother">Father/Mother</label>
                       <div class="form-check">
                           <label  class="form-check-label">
-                            <input class="form-check-input check-passport-input" type="radio" name="fathermother" id="exampleRadios2" value="Male" checked="">  
+                            <input class="form-check-input check-passport-input " type="radio" name="fathermother" id="exampleRadios2" value="Male" checked="">  
                             Father
 
                             <span class="circle">
@@ -356,8 +359,8 @@
                 
                 <div class="col-md-6">
                     <div class="form-group bmd-form-group">
-                        <label for="exampleInput1" class="bmd-label-floating lang-block-fullname">Full name (as per passport)</label>
-                        <input type="text" name="parentname" class="form-control" id="exampleInput1">
+                        <label for="exampleInput1" class="bmd-label-floating lang-block-fullname ">Full name (as per passport)</label>
+                        <input type="text" name="parentname" class="form-control required-input" id="exampleInput1">
                       </div>
                   </div>
 
@@ -391,7 +394,7 @@
                       <div class="col-md-4">
                           <div class="form-group">
                                   <label class="label-control lang-block-dateofbirth">Date of Birth</label>
-                                  <input type="text" name="parentdateofbirth" class="form-control datetimepicker" value="01/01/1980">
+                                  <input type="text" name="parentdateofbirth" class="form-control datetimepicker required-input" value="01/01/1980">
                           </div>
                       </div>
 
@@ -399,7 +402,7 @@
                           
                           <div class="form-group bmd-form-group">
                               <label for="exampleInput1" class="bmd-label-floating lang-block-passportnumber">Passport number</label>
-                              <input type="text" name="parentpassportnumber" class="form-control" id="exampleInput1">
+                              <input type="text" name="parentpassportnumber" class="form-control required-input" id="exampleInput1">
                             </div>
                         </div>
 
@@ -422,8 +425,12 @@
 
                         <div class="col-md-4">
                             <div class="form-group bmd-form-group is-filled">
+                                
+                               
                                 <label for="exampleInput1" class="bmd-label-floating lang-block-filenumber">File number</label>
-                                <input name="filenumber" class="file-number form-control" type="text" id="exampleInput1">
+                                <input name="filenumber" class="file-number form-control required-input" type="text" id="exampleInput1">
+                              
+                                <p> The file number can be found on the last or 2nd last page of the parent's Tanzanian passport. The number is hand written.</p>
                               </div>
                             
                           </div>

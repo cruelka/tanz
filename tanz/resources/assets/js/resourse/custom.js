@@ -359,7 +359,7 @@ $(document).ready(function() {
               
               window.open('/uploads/'+data);
 
-              $('.apply-form').empty().append('<h3>Success.</h3><p> Now you can print your applications. And check the status in your <a href="https://tanzaniansabroad.com/applications">applications list</a></p>');
+              $('.apply-form').empty().append('<div style="padding: 0 20px;"><h3>Success.</h3><p> Now you can print your applications. And check the status in your <a href="https://tanzaniansabroad.com/applications">applications list</a></p></div>');
             })
           }
 
