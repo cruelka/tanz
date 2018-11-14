@@ -40,6 +40,7 @@
                                         </div>
                                       </div>
                           <p>ID {{ $row->status}}</p>
+                          {{ dd($row) }}
                           <a href="https://tanzaniansabroad.com/uploads/{{  $row->status }}" class="btn">Open PDF<div class="ripple-container"></div></a>
 
                         </div>
