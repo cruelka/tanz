@@ -19272,6 +19272,10 @@
 
   .btn.has-danger {
     border: 1px solid #f76f65;
+  }
+
+  @media screen and (max-width: 500px){
+    font-size: 2rem !important; 
   }.tim-row {
     margin-bottom: 20px;
   }
