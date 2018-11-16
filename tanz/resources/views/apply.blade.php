@@ -146,6 +146,21 @@
                             <input name="passportnumber" type="email" class="form-control passport-number-input" id="exampleInput1">
                           </div>
                     </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                              <label class="label-control lang-block-dateofbirth">Date of Issue</label>
+                              <input name="dateofissuepassport" type="text" class="form-control datetimepicker " value="01/01/1990">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                                                  
+                      <div class="form-group bmd-form-group">
+                          <label for="exampleInput1" class="bmd-label-floating lang-block-phonenumber">Place of issue</label>
+                          <input name="placeofissuepassport" type="text" class="form-control required-input" id="exampleInput1">
+                        </div>
+                    </div>
                 
                     <div class="col-md-4">
                             <div class="form-group">
