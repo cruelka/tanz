@@ -148,15 +148,15 @@
                     </div>
 
                     <div class="col-md-6">
-                      <div class="form-group">
-                              <label class="label-control lang-block-dateofbirth">Date of Issue</label>
+                      <div class="form-group  passport-description passport-description_none">
+                              <label class="label-control lang-block-dateofbirth ">Date of Issue</label>
                               <input name="dateofissuepassport" type="text" class="form-control datetimepicker " value="01/01/1990">
                       </div>
                     </div>
 
                     <div class="col-md-6">
                                                   
-                      <div class="form-group bmd-form-group">
+                      <div class="form-group bmd-form-group  passport-description passport-description_none">
                           <label for="exampleInput1" class="bmd-label-floating lang-block-phonenumber">Place of issue</label>
                           <input name="placeofissuepassport" type="text" class="form-control required-input" id="exampleInput1">
                         </div>
@@ -313,7 +313,7 @@
                                                                     <div class="form-check">
                                                                       <label class="form-check-label">
                                                                         <input class="form-check-input" type="radio" name="reason" id="exampleRadios2" value="2">  
-                                                                        (i)Descent -  my parent was born in Tanzania 
+                                                                        Descent -  my parent was born in Tanzania 
 
                                                                         <span class="circle">
                                                                           <span class="check"></span>
