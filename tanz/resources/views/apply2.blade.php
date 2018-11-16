@@ -147,6 +147,22 @@
                             <label for="exampleInput1" class="bmd-label-floating lang-block-passportnumber">Passport number</label>
                             <input name="passportnumber" type="email" class="form-control passport-number-input" id="exampleInput1">
                           </div>
+                          
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                              <label class="label-control lang-block-dateofbirth">Date of Issue</label>
+                              <input name="dateofissuepassport" type="text" class="form-control datetimepicker " value="01/01/1990">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                                                  
+                      <div class="form-group bmd-form-group">
+                          <label for="exampleInput1" class="bmd-label-floating lang-block-phonenumber">Place of issue</label>
+                          <input name="placeofissuepassport" type="text" class="form-control required-input" id="exampleInput1">
+                        </div>
                     </div>
                 
                     <div class="col-md-4">
@@ -182,7 +198,7 @@
                                             <label class="label-control lang-block-nationality">Nationality</label>
                                             <div class="dropdown country-of-birth" data="2">
                                                     <button class="btn btn-secondary dropdown-toggle nationality-data" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                      Dropdown button
+                                                      Unknown
                                                     </button>
                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                         <div onclick="swapCountry(this,'0','Unknown')" class="dropdown-item" value="unknown" countryid="0">
