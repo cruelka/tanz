@@ -51,7 +51,7 @@ Route::get('/application', function () {
 Route::get('/test','HomeController@test');
 Route::post('/test','HomeController@test');
 
-Route::post('/applyminor','HomeController@applyminor');
+Route::get('/applyminor','HomeController@applyminor');
 
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
 
