@@ -55,7 +55,7 @@ class HomeController extends Controller
                 'logOutputFile' =>  storage_path('logs/log.htm'),
                 'images' => true,
                 'isRemoteEnabled' => true
-            ])->loadView('form', compact('data'));
+            ])->loadView('applyminor', compact('data'));
 
             return $pdf->stream();
         }
