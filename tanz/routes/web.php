@@ -53,6 +53,10 @@ Route::post('/test','HomeController@test');
 
 Route::get('/applyminor','HomeController@applyminor');
 
+Route::get('/applyminorhtml', function () {
+    return view('applyminor');
+});
+
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
