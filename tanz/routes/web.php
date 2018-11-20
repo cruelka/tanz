@@ -80,6 +80,10 @@ Route::group([ 'middleware'=>'auth'], function() {
     Route::get('/apply2', function () {
         return view('apply2');
     });
+    Route::get('/apply3', function () {
+        return view('apply3');
+    });
+
     Route::post('/apply','ApplicationController@store');
 
 });

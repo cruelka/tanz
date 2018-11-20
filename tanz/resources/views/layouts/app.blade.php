@@ -66,6 +66,9 @@
               <a href="/apply2" class="dropdown-item">
                 <i class="material-icons">content_paste</i> Applying for someone else
               </a>
+              <a href="/apply3" class="dropdown-item">
+                <i class="material-icons">content_paste</i> Minor
+              </a>
             </div>
           </li>
           <li class="nav-item">
