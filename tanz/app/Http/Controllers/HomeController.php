@@ -49,8 +49,8 @@ class HomeController extends Controller
         return $name;
     }
 
-    public function applyminor(Request $request)
-    {   $data = $request;
+    public function applyminor()
+    {   
             $pdf = PDF::setOptions([
                 'logOutputFile' =>  storage_path('logs/log.htm'),
                 'images' => true,
