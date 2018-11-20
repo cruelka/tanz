@@ -48,4 +48,17 @@ class HomeController extends Controller
     $db->save();
         return $name;
     }
+
+    public function applyminor(Request $request)
+    {   $data = $request;
+            $pdf = PDF::setOptions([
+                'logOutputFile' =>  storage_path('logs/log.htm'),
+                'images' => true,
+                'isRemoteEnabled' => true
+            ])->loadView('applyminor', compact('data'));
+
+            return $pdf->stream();
+        }
 }
+
+

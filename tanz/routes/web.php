@@ -51,6 +51,8 @@ Route::get('/application', function () {
 Route::get('/test','HomeController@test');
 Route::post('/test','HomeController@test');
 
+Route::post('/applyminor','HomeController@applyminor');
+
 Route::get('register/confirm/{token}', 'Auth\RegisterController@confirmEmail');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
@@ -83,6 +85,8 @@ Route::group([ 'middleware'=>'auth'], function() {
     Route::get('/apply3', function () {
         return view('apply3');
     });
+
+    
 
     Route::post('/apply','ApplicationController@store');
 
