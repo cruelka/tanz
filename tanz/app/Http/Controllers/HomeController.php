@@ -37,7 +37,7 @@ class HomeController extends Controller
             'isRemoteEnabled' => true
         ])->loadView('form', compact('data'));
         $name = microtime().'.pdf';
-        $path = '/var/www/www-root/data/www/tanzaniansabroad.com/tanz/tanz/public/uploads/';
+        $path = '/var/www/tanz/tanz/public/uploads/';
 
         $pdf->save($path.$name);
     $toDB = json_encode($data->all());

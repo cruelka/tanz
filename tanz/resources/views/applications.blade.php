@@ -40,7 +40,7 @@
                                         </div>
                                       </div>
                           <p>ID: {{ $row->status}}</p>
-                          <p>Name of applicant: {{ $row->data->fullname }}</p>
+                          
                           <p>{{ $row->created_at }}</p>
                           
                           

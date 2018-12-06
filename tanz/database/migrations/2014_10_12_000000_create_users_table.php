@@ -18,6 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('token');
+            $table->tinyInteger('verified')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });
@@ -31,5 +33,10 @@ class CreateUsersTable extends Migration
     public function down()
     {
         Schema::dropIfExists('users');
+    }
+
+    public function getRememberTokenName()
+    {
+        return 'token';
     }
 }
