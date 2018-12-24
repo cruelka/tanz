@@ -15,6 +15,11 @@ try {
     
 } catch (e) {}
 
+
+let env = require('./resourse/env.js');
+
+window.env = env.default;
+
 window.$ = window.jQuery = require('jquery');
 window.Popper = require('./resourse/core/popper.min.js');
 
